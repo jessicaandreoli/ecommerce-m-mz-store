@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#topbar": {
+    "children": [
+      "flex-layout.col#top-bar-left-col",
+      "flex-layout.col#top-bar-center-col",
+      "flex-layout.col#top-bar-right-col"
+  ],
+    "props": {
+      "blockClass": "topbar",
+      "fullWidth": true,
+      "colSizing": "equal",
+      "colGap": 6,
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#top-bar-left-col": {
+    "children": [],
+    "props": {}
+  },
+
+  "flex-layout.col#top-bar-center-col": {
+    "children": ["rich-text#topbar"],
+    "props": {
+      "blockClass": "topbar-center",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "rich-text#topbar": {
+    "props": {
+      "blockClass": "text-topbar",
+      "text": "Frete grátis para **todo o Brasil**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.col#top-bar-right-col": {
+    "children": ["locale-switcher"],
+    "props": {
+      "blockClass": "topbar-right",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }
+}

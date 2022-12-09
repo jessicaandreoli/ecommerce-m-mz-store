@@ -1,0 +1,35 @@
+{
+  "name": "vtex-store-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vtex-apps/store-theme.git",
+  "author": "Jessica Andreoli <jessicandreoli@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp css && concurrently --kill-others --handle-input \"cd theme && vtex link --verbose\" \"gulp watch\" -n \"vtex,gulp\" -c \"yellow.bold,green.bold\"",
+    "gulp:create:css": "gulp css",
+    "postinstall": "yarn gulp:create:css"
+  },
+  "devDependencies": {
+    "husk": "^0.5.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^7.6.0",
+    "fibers": "^5.0.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-tinypng-extended": "^3.0.3",
+    "gulp-util": "^3.0.8",
+    "gulp-watch-sass": "^1.4.1",
+    "sass": "^1.56.1"
+  }
+}

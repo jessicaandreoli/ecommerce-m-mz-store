@@ -1,0 +1,19 @@
+.flexRow {
+  &--topbar {
+    background-color: red;
+  }
+}
+
+.styledLinkContent {
+  background: yellow;
+}
+
+.paragraph {
+  &--text-topbar {
+    color: #ffffff
+  }
+}
+
+.flexCol {
+  background: black;
+}
