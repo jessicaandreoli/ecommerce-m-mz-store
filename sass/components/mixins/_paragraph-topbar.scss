@@ -1,0 +1,10 @@
+@mixin config-paragraph-topbar() {
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1.4375rem;
+  color: $text-color-200;
+}
+
+@mixin config-paragraph-bold-topbar($color:$second-color3-500) {
+  color: $color;
+}

@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#topbar": {
+    "children": [
+      "flex-layout.col#top-bar-left-col",
+      "flex-layout.col#top-bar-right-col"
+  ],
+    "props": {
+      "blockClass": "topbar",
+      "fullWidth": true,
+      "colSizing": "equal",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#top-bar-left-col": {
+    "children": ["rich-text#topbar-left"],
+    "props": {
+      "blockClass":"topbar-left",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "rich-text#topbar-left": {
+    "props": {
+      "blockClass": "text-topbar-left",
+      "text": "Frete Gratis a partir de **R$ 99,00**",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.col#top-bar-right-col": {
+    "children": [
+      "flex-layout.row#top-bar-right-col"
+  ],
+    "props": {
+      "blockClass": "topbar-right",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.row#top-bar-right-col": {
+    "children": [
+      "flex-layout.col#contact",
+      "flex-layout.col#call-center"
+  ],
+    "props": {
+      "blockClass": "topbar-right-row",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#contact": {
+    "children": ["rich-text#topbar-right-contact"],
+    "props": {
+      "blockClass": "topbar-contact",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "rich-text#topbar-right-contact": {
+    "props": {
+      "blockClass": "text-topbar-contact",
+      "text": "Contato: **(99) 9.9999-9999**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.col#call-center": {
+    "children": ["flex-layout.row#call-center"],
+    "props": {
+      "blockClass": "topbar-call-center",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.row#call-center": {
+    "children": [
+      "image#call-center",
+      "rich-text#topbar-right-call-center"
+    ],
+    "props": {
+      "blockClass": "row-call-center",
+      "colSizing": "auto"
+    }
+  },
+
+  "rich-text#topbar-right-call-center": {
+    "props": {
+      "blockClass": "text-topbar-call-center",
+      "text": "[Atendimento](https://help.vtex.com/en/faq/what-is-vtex-io)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#call-center": {
+    "props": {
+      "title": "img-call-center",
+      "src": "assets/images/top-bar/speak-icon.svg",
+      "maxHeight": 14,
+      "maxWidth": 14
+    }
+  }
+
+  
+}

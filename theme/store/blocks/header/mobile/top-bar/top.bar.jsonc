@@ -1,0 +1,21 @@
+{
+  "flex-layout.col#topbar": {
+    "children": ["rich-text#topbar"],
+    "props": {
+      "blockClass": "topbar",
+      "fullWidth": true,
+      "colSizing": "equal",
+      "horizontalAlign": "center"
+    }
+  },
+
+  
+  "rich-text#topbar": {
+    "props": {
+      "blockClass": "text-topbar-left",
+      "text": "Frete Gratis a partir de **R$ 99,00** para todo Brasil",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

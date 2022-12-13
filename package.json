@@ -11,7 +11,13 @@
     "postinstall": "yarn gulp:create:css"
   },
   "devDependencies": {
-    "husk": "^0.5.3"
+    "git-commit-msg-linter": "^4.4.0",
+    "gulp-livereload": "^4.0.2",
+    "husk": "^0.5.3",
+    "postcss": "^8.4.19",
+    "stylelint": "^14.16.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^6.1.0"
   },
   "dependencies": {
     "@babel/core": "^7.20.5",

@@ -1,0 +1,22 @@
+.flexRow {
+  width: 100%;
+
+  &--topbar {
+    height: 1.5625rem;
+    background: $primary-color3-600;
+  }
+}
+
+.flexRowContent {
+  &--topbar-right-row {
+    gap: 4.1444rem;
+  }
+
+  &--row-call-center {
+    align-items: center;
+    gap: .3125rem;
+  }
+
+  
+}
+

@@ -1,0 +1,30 @@
+.paragraph {
+  padding: 0;
+  margin: 0;
+
+  &--text-topbar-left {
+    @include config-paragraph-topbar;
+  }
+
+  &--text-topbar-contact {
+    @include config-paragraph-topbar;
+  }
+
+  &--text-topbar-call-center {
+    @include config-paragraph-topbar;
+    font-weight: 500;
+  }
+}
+
+.link {
+  text-decoration: none;
+  &--text-topbar-call-center {
+    color: $second-color-200;
+  }
+}
+
+.b {
+  @include config-paragraph-bold-topbar;
+  color: white;
+}
+

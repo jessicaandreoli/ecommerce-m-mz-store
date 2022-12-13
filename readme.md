@@ -1,10 +1,10 @@
-<img src=".github/layout-project.png">
+<img align="center" src=".github/layout-project.png">
 
 ## 💻 Projeto
 
 E-commerce M | MZ Store
 
-## ✨ Tecnologia
+## ✨ Tecnologias
 
 - [Vtex](https://vtex.com/br-pt/overview-plataforma/?utm_source=google&utm_medium=cpc&utm_campaign=BR_VTEX_Search_Branded&utm_term=vtex&utm_content=vtex_523171640535)
 - [Sass](https://sass-lang.com/)
@@ -28,7 +28,7 @@ O próximo passo é criar o seu workspace:
 Agora já pode linkar esse tema:
 - yarn start
 
-Para acessar a página e todas as suas funcionalidades:
+Para acessar a página e todas as suas funcionalidades, abra em um segundo terminal dentro do projeto e digite o comando:
 - vtex browse
 
 ## 🔖 Layout

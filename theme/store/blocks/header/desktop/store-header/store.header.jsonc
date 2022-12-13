@@ -1,0 +1,71 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#topbar",
+      "sticky-layout#4-desktop"
+    ]
+  },
+  
+  "sticky-layout#4-desktop": {
+    "props": {
+    "blockClass": "sticky-header"
+  },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "children": [
+      "flex-layout.row#store-left",
+      "flex-layout.row#store-right"
+    ],
+    "props": {
+      "blockClass": "main-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "colJustify": "between"
+    }
+  },
+
+  "flex-layout.row#store-left": {
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar#store-header"
+    ],
+    "props": {
+      "blockClass": "store-left",
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.row#store-right": {
+    "children": [
+      "locale-switcher",
+      "login",
+      "image#wishlist",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "store-right",
+      "colSizing": "auto",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "search-bar#store-header": {
+    "props": {
+      "placeholder": "O que está buscando?",
+      "displayMode": "search-and-clear-buttons",
+      "maxWidth": 463
+    }
+  }
+}
