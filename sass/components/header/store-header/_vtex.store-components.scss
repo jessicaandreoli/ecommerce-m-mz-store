@@ -1,4 +1,29 @@
-.sizeDesktop {
-  padding: 0;
-  margin: 0;
+.wrapper {
+  &--sticky-header {
+    background: $primary-color1-500;
+  }
 }
+
+.logoContainer {
+  padding: 0 2.875rem 0 0;
+}
+
+.autoCompleteOuterContainer {
+  width: 28.9375rem;
+  height: 2.8125rem;
+}
+
+.searchBarIcon {//falta melhorar
+  color: white;
+  &--external-search {
+    background: $primary-color-bg-pure-500;
+    height: 2.8125rem;
+  }
+}
+
+:global(.vtex-input-prefix__group) {
+  border-radius: 5000px !important;
+}
+
+
+

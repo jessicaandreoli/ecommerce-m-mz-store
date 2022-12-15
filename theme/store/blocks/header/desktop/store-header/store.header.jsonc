@@ -41,8 +41,8 @@
 
   "flex-layout.row#store-right": {
     "children": [
-      "locale-switcher",
-      "login",
+      "flex-layout.row#localeswitcher-nav-down",
+      "flex-layout.row#login-nav-down",
       "image#wishlist",
       "minicart.v2"
     ],
@@ -54,6 +54,26 @@
     }
   },
 
+  "flex-layout.row#localeswitcher-nav-down": {
+    "children":[
+      "locale-switcher",
+      "image#nav-down"
+    ],
+    "props": {
+      "blockClass":"localeswitcher-nav-down"
+    }
+  },
+
+  "flex-layout.row#login-nav-down": {
+    "children":[
+      "login#store-header",
+      "image#nav-down"
+    ],
+    "props": {
+      "blockClass":"login-nav-down"
+    }
+  },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -61,11 +81,10 @@
     "children": ["logo#desktop"]
   },
 
-  "search-bar#store-header": {
+  "login#store-header": {
     "props": {
-      "placeholder": "O que está buscando?",
-      "displayMode": "search-and-clear-buttons",
-      "maxWidth": 463
+      "blockClass": "login",
+      "showIconProfile": true
     }
   }
 }

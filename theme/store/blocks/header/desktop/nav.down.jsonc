@@ -1,0 +1,14 @@
+{
+  "image#nav-down": {
+    "props": {
+      "src": "assets/images/store-header/nav-down.svg",
+      "maxHeight": "3",
+      "maxWidth": "6",
+      "link": {
+        "openNewTab": false,
+        "title": "nav-down",
+        "url": "/account/#/wishlist"
+      }
+    }
+  }
+}

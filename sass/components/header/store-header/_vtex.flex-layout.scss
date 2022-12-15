@@ -12,14 +12,24 @@
 }
 
 .flexRowContent {
-  
   &--main-header {
-    background-color: transparent;
-    padding: 0;
+    height: 4.6875rem;
+    background-color: $primary-color1-500 !important;
+    padding: 0 !important;
+    align-items: center;
 
     &:hover {
       background-color: transparent;
     }
   }
 
+  &--store-right {
+    align-items: center;
+    color: $second-color3-500;
+  }
+
+  &--login-nav-down {
+    padding: 0;
+  }
 }
+

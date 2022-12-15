@@ -2,7 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 INPUT_FILE=$1
 START_LINE=`head -n1 $INPUT_FILE`
-PATTERN="^(Release) v[[:digit:]]+.+[[:digit:]]+.+[[:digit:]]"
+PATTERN="^(Release) v[[:digit:]]+.+[[:digit:]]+.+6[[:digit:]]"
 if [[ "$START_LINE" =~ $PATTERN ]]; then
   echo "VTEX - Pattern Commit"
 else

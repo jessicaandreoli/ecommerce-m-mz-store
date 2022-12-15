@@ -1,0 +1,10 @@
+{
+  "search-bar#store-header": {
+    "props": {
+      "blockClass": "store-header",
+      "placeholder": "O que está buscando?",
+      "displayMode": "search-and-clear-buttons",
+      "maxWidth": 463
+    }
+  }
+}

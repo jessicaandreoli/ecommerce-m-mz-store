@@ -1,0 +1,19 @@
+.container {
+  :global(.vtex-button) {
+    background-color: $primary-color1-500;
+    color: $second-color3-500;
+
+    &:hover {
+      background-color: $primary-color1-500;
+    }
+
+    
+  }
+}
+
+.profileIcon {
+  &--login {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
