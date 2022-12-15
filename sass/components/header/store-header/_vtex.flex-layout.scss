@@ -17,6 +17,7 @@
     background-color: $primary-color1-500 !important;
     padding: 0 !important;
     align-items: center;
+    gap: 10rem;
 
     &:hover {
       background-color: transparent;
@@ -26,10 +27,15 @@
   &--store-right {
     align-items: center;
     color: $second-color3-500;
+    gap: 2.5rem;
+  }
+
+  &--localeswitcher-nav-down {
+    padding-top: 1.25rem;
   }
 
   &--login-nav-down {
-    padding: 0;
+    padding-top: .9375rem;
   }
 }
 

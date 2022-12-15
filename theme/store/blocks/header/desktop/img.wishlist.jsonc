@@ -1,6 +1,7 @@
 {
   "image#wishlist": {
     "props": {
+      "blockClass": "wishList",
       "src": "assets/images/store-header/heart.svg",
       "maxHeight": "18.23",
       "maxWidth": "20.9",

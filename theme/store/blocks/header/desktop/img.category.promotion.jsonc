@@ -1,0 +1,8 @@
+{
+  "image#category-promotion": {
+    "props": {
+      "blockClass": "img-category-promotion",
+      "src": "assets/images/category-menu/promotion.png"
+    }
+  }
+}

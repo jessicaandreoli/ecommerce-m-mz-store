@@ -1,0 +1,10 @@
+{
+  "image#category-menu": {
+    "props": {
+      "blockClass": "img-category-menu",
+      "src": "assets/images/category-menu/category-menu.svg",
+      "maxHeight": "22",
+      "maxWidth": "22"
+    }
+  }
+}

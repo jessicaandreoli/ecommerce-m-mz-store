@@ -1,0 +1,33 @@
+.cartIcon {
+  width: 1.5rem;
+  height: 1.625rem;
+  padding-top: .9375rem;
+}
+
+:global(.vtex-button__label) {
+  background: $primary-color1-500;
+
+  &:hover {
+    background: $primary-color1-500;
+  }
+}
+
+:global(.vtex-button) {
+  &:hover {
+    border: none;
+  }
+
+  &:focus {
+    border: none;
+  }
+}
+
+.minicartQuantityBadge {
+  width: 2.375rem;
+  height: .9375rem;
+  color: $second-color3-500;
+  background: $primary-color-bg-pure-500;
+  top: -0.1rem;
+  right: -2.4rem;
+}
+

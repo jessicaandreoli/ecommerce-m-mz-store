@@ -6,8 +6,6 @@
     &:hover {
       background-color: $primary-color1-500;
     }
-
-    
   }
 }
 
@@ -15,5 +13,15 @@
   &--login {
     width: 1.5rem;
     height: 1.5rem;
+    margin:0;
+    padding:0
   }
+}
+
+.label {
+  margin: 0;
+  padding: 0;
+  color: $second-color3-500;
+  margin-top: .5rem;
+  margin-right: .625rem;
 }

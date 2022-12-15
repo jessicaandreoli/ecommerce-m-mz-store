@@ -1,0 +1,175 @@
+{
+  "flex-layout.row#category-menu": {
+    "children": ["vtex.menu@2.x:menu#category-menu"],
+    "props": {
+      "blockClass": "category-menu"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "image#category-menu",
+      "menu-item#category-all",
+      "menu-item#category-one",
+      "menu-item#category-two",
+      "menu-item#category-tree",
+      "menu-item#category-four",
+      "menu-item#category-five",
+      "menu-item#category-six",
+      "menu-item#category-seven",
+      "image#category-promotion"
+    ]
+  },
+  "menu-item#category-all": {
+    "props": {
+      "blockClass": "category-all",
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---all/",
+        "noFollow": false,
+        "tagTitle": "Todas Categorias",
+        "text": "Todas Categorias"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-all"]
+  },
+  "vtex.menu@2.x:submenu#category-all": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#category-all"]
+  },
+  "vtex.menu@2.x:menu#category-all": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-one",
+      "menu-item#category-two",
+      "menu-item#category-tree",
+      "menu-item#category-four",
+      "menu-item#category-five",
+      "menu-item#category-six",
+      "menu-item#category-seven"
+    ]
+  },
+  "menu-item#category-one": {
+    "props": {
+      "id": "menu-item-category-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category--one",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    }
+  },
+
+  "menu-item#category-two": {
+    "props": {
+      "id": "menu-item-category-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---two/",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      }
+    }
+  },
+
+  "menu-item#category-tree": {
+    "props": {
+      "id": "menu-item-category-tree",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---tree/",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      }
+    }
+  },
+
+  "menu-item#category-four": {
+    "props": {
+      "id": "menu-item-category-four",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---four/",
+        "noFollow": false,
+        "tagTitle": "Categoria 4",
+        "text": "Categoria 4"
+      }
+    }
+  },
+
+  "menu-item#category-five": {
+    "props": {
+      "id": "menu-item-category-five",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---five/",
+        "noFollow": false,
+        "tagTitle": "Categoria 5",
+        "text": "Categoria 5"
+      }
+    }
+  },
+
+  "menu-item#category-six": {
+    "props": {
+      "id": "menu-item-category-six",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---six/",
+        "noFollow": false,
+        "tagTitle": "Categoria 6",
+        "text": "Categoria 6"
+      }
+    }
+  },
+
+  "menu-item#category-seven": {
+    "props": {
+      "id": "menu-item-category-seven",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category---seven/",
+        "noFollow": false,
+        "tagTitle": "Categoria 7",
+        "text": "Categoria 7"
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,9 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#topbar",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#category-menu"
+    ]
+  }
+}

@@ -1,11 +1,4 @@
 {
-  "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#topbar",
-      "sticky-layout#4-desktop"
-    ]
-  },
-  
   "sticky-layout#4-desktop": {
     "props": {
     "blockClass": "sticky-header"
@@ -20,9 +13,7 @@
     "props": {
       "blockClass": "main-header",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "colSizing": "auto",
-      "colJustify": "between"
+      "preventVerticalStretch": true
     }
   },
 
