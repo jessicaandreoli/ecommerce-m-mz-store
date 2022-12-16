@@ -1,0 +1,9 @@
+.paginationDot {
+  &--main-banner {
+    &--isActive {
+      background-color: $primary-color1-500!important;
+      width: .5rem;
+      height: .5rem;
+    }
+  }
+}

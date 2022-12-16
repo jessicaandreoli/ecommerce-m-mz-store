@@ -1,0 +1,149 @@
+{ 
+  "list-context.image-list#main-banner": {
+    "title": "Lista de Banners Principais", 
+    "children": [
+      "slider-layout#main-banner",
+      "flex-layout.row#content-banner"
+  ],
+    "props": {
+      "blockClass": "main-banner",
+      "height": 578,
+      "images": [
+        {
+          "image": "assets/images/home/banner/main-banner.png",
+          "mobileImage": "assets/images/home/banner/main-banner.png",
+          "description": "Banner Principal",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/banner/main-banner.png",
+          "mobileImage": "assets/images/home/banner/main-banner.png",
+          "description": "Banner Principal",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/banner/main-banner.png",
+          "mobileImage": "assets/images/home/banner/main-banner.png",
+          "description": "Banner Principal",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#main-banner": {
+    "title": "Slider de Banners Principais",
+    "props": {
+      "blockClass": "main-banner",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 7000
+      }
+    }
+  },
+
+  "flex-layout.row#content-banner": {
+    "children": [
+      "flex-layout.col#left-banner",
+      "flex-layout.col#right-banner"
+    ],
+    "props": {
+      "blockClass": "content-banner"
+    }
+  },
+
+  "flex-layout.col#left-banner": {
+    "children": ["image#readForSport"],
+    "props": {
+      "blockClass": "left-banner"
+    }
+  },
+  
+  "image#readForSport": {
+    "props": {
+      "blockClass": "read-for-sport",
+      "src": "assets/images/home/banner/read-for-sport.png",
+      "maxHeight": "18.23",
+      "maxWidth": "20.9",
+      "link": {
+        "openNewTab": false,
+        "title": "Favorites",
+        "url": "/account/#/wishlist"
+      }
+    }
+  },
+
+  "flex-layout.col#right-banner": {
+    "children":[
+      "rich-text#banner-main-right-first-text-one",
+      "rich-text#banner-main-right-first-text-two",
+      "rich-text#banner-main-right-second-text"
+      
+    ],
+    "props": {
+      "blockClass": "right-banner"
+    }
+  },
+
+  "rich-text#banner-main-right-first-text-one": {
+    "props": {
+      "blockClass": "banner-main-right-first-text-one",
+      "text": "Ganhe",
+      "textAlignment": "LEFT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "rich-text#banner-main-right-first-text-two": {
+    "props": {
+      "blockClass": "banner-main-right-first-text-two",
+      "text": "20%OFF",
+      "textAlignment": "LEFT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "rich-text#banner-main-right-second-text": {
+    "props": {
+      "blockClass": "banner-main-right-second-text",
+      "text": "Digite o código **'PRIMEIRA COMPRA'**\r\n na página finalizar pedido",
+      "textAlignment": "LEFT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "add-to-cart-button#banner-main": {
+    "props": {
+      "blockClass": "bt-banner-main",
+      "text": "Saiba mais",
+      "isOneClickBuy": true
+    }
+  }
+  
+}

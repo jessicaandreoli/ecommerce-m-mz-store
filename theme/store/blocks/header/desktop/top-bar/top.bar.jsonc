@@ -104,7 +104,7 @@
   "image#call-center": {
     "props": {
       "title": "img-call-center",
-      "src": "assets/images/top-bar/speak-icon.svg",
+      "src": "assets/images/header/top-bar/speak-icon.svg",
       "maxHeight": 14,
       "maxWidth": 14
     }

@@ -40,8 +40,7 @@
     "props": {
       "blockClass": "store-right",
       "colSizing": "auto",
-      "horizontalAlign": "right",
-      "verticalAlign": "middle"
+      "horizontalAlign": "right"
     }
   },
 

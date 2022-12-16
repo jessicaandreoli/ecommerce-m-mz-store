@@ -2,17 +2,20 @@
   "flex-layout.row#category-menu": {
     "children": ["vtex.menu@2.x:menu#category-menu"],
     "props": {
-      "blockClass": "category-menu"
+      "blockClass": "category-menu",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+      
     }
   },
 
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
+      "blockClass": "category-menu",
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "image#category-menu",
-      "menu-item#category-all",
+      "flex-layout.row#category-all",
       "menu-item#category-one",
       "menu-item#category-two",
       "menu-item#category-tree",
@@ -23,6 +26,18 @@
       "image#category-promotion"
     ]
   },
+
+  "flex-layout.row#category-all": {
+    "children": [
+      "image#category-menu",
+      "menu-item#category-all"
+    ],
+    "props": {
+      "blockClass": "category-all",
+      "colSizing": "auto"
+    }
+  },
+
   "menu-item#category-all": {
     "props": {
       "blockClass": "category-all",
@@ -48,6 +63,7 @@
   },
   "vtex.menu@2.x:menu#category-all": {
     "props": {
+      "blockClass": "menu-vertical-all",
       "orientation": "vertical"
     },
     "children": [
@@ -62,6 +78,7 @@
   },
   "menu-item#category-one": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-one",
       "type": "custom",
       "iconId": null,
@@ -78,6 +95,7 @@
 
   "menu-item#category-two": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-two",
       "type": "custom",
       "iconId": null,
@@ -94,6 +112,7 @@
 
   "menu-item#category-tree": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-tree",
       "type": "custom",
       "iconId": null,
@@ -110,6 +129,7 @@
 
   "menu-item#category-four": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-four",
       "type": "custom",
       "iconId": null,
@@ -126,6 +146,7 @@
 
   "menu-item#category-five": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-five",
       "type": "custom",
       "iconId": null,
@@ -142,6 +163,7 @@
 
   "menu-item#category-six": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-six",
       "type": "custom",
       "iconId": null,
@@ -158,6 +180,7 @@
 
   "menu-item#category-seven": {
     "props": {
+      "blockClass": "category",
       "id": "menu-item-category-seven",
       "type": "custom",
       "iconId": null,

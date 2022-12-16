@@ -1,10 +1,39 @@
 .menuContainer {
-  gap: 1.375rem;
+  &--category-menu {
+    gap: 22px;
+  }
 }
 
 .styledLinkContent {
-  color: $text-color-400;
-  font-size: $font-size-secondary;
-  line-height: 1.25rem;
-  font-weight: 700;
+  &--category {
+    color: $text-color-400;
+    font-size: $font-size-secondary;
+    line-height: 1.25rem;
+    font-weight: 700;
+    transition: all .2s;
+
+      &:hover {
+        color: $text-color1-500;
+        font-weight: 900;
+      }
+  }
+  
+  &--category-all {
+    color: $text-color2-500;
+    font-size: $font-size-secondary;
+    font-weight: 700;
+    transition: all .2s;
+
+    &:hover {
+      color: #030114;
+      font-weight: 900;
+    }
+
+  }
+}
+
+.styledLinkContainer {
+  &--category-all {
+    margin: 0;
+  }
 }

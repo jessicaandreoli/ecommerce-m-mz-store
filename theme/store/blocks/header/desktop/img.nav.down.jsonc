@@ -2,7 +2,7 @@
   "image#nav-down": {
     "props": {
       "blockClass": "nav-down",
-      "src": "assets/images/store-header/nav-down.svg",
+      "src": "assets/images/header/store-header/nav-down.svg",
       "maxHeight": "3",
       "maxWidth": "6",
       "link": {

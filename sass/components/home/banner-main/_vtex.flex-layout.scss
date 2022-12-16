@@ -1,0 +1,18 @@
+.flexRowContent {
+  &--content-banner {
+    position: relative;
+  }
+
+  &--tip-bar {
+    align-items: flex-start;
+  }
+}
+
+.flexRow {
+  &--tip-bar {
+    padding: 2.5625rem 0;
+  }
+}
+
+
+

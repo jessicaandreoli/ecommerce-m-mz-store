@@ -1,0 +1,21 @@
+.flexRow {
+  &--category-all {
+    width: auto;
+  }
+
+  &--category-menu {
+    height: 2.625rem;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.flexRowContent {
+  &--category-all {
+    align-items: center;
+    gap: .125rem;
+  }
+}

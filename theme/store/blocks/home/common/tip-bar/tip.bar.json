@@ -1,0 +1,98 @@
+{
+  "flex-layout.row#tip-bar": {
+    "children": [
+      "flex-layout.row#tipbar1",
+      "flex-layout.row#tipbar2",
+      "flex-layout.row#tipbar3",
+      "flex-layout.row#tipbar4"
+    ],
+    "props": {
+      "blockClass": "tip-bar"
+    }
+  },
+
+  "flex-layout.row#tipbar1": {
+    "children": [
+      "image#tipbar1",
+      "rich-text#tipbar1"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#tipbar1": {
+    "props": {
+      "src": "assets/images/home/tip-bar/tip-bar.svg",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#tipbar1": {
+    "props": {
+      "text": "Diferencial de compra tip bar 1",
+      "blockClass": "tipbar"
+    }
+  },
+  "flex-layout.row#tipbar2": {
+    "children": [
+      "image#tipbar2",
+      "rich-text#tipbar2"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#tipbar2": {
+    "props": {
+      "src": "assets/images/home/tip-bar/tip-bar.svg",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#tipbar2": {
+    "props": {
+      "text": "Diferencial de compra tip bar 2",
+      "blockClass": "tipbar"
+    }
+  },
+  "flex-layout.row#tipbar3": {
+    "children": [
+      "image#tipbar3",
+      "rich-text#tipbar3"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#tipbar3": {
+    "props": {
+      "src": "assets/images/home/tip-bar/tip-bar.svg",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#tipbar3": {
+    "props": {
+      "text": "Diferencial de compra tip bar 3",
+      "blockClass": "tipbar"
+    }
+  },
+  "flex-layout.row#tipbar4": {
+    "children": [
+      "image#tipbar4",
+      "rich-text#tipbar4"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#tipbar4": {
+    "props": {
+      "src": "assets/images/home/tip-bar/tip-bar.svg",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#tipbar4": {
+    "props": {
+      "text": "Diferencial de compra [Saiba mais](https://help.vtex.com/en/faq/what-is-vtex-io)",
+      "blockClass": "tipbar"
+    }
+  }
+}
