@@ -7,7 +7,7 @@
   ],
     "props": {
       "blockClass": "main-banner",
-      "height": 578,
+      "height": 420,
       "images": [
         {
           "image": "assets/images/home/banner/main-banner.png",
@@ -103,8 +103,8 @@
     "children":[
       "rich-text#banner-main-right-first-text-one",
       "rich-text#banner-main-right-first-text-two",
-      "rich-text#banner-main-right-second-text"
-      
+      "rich-text#banner-main-right-second-text",
+      "info-card#button-banner"
     ],
     "props": {
       "blockClass": "right-banner"
@@ -138,12 +138,16 @@
     }
   },
 
-  "add-to-cart-button#banner-main": {
+  "info-card#button-banner": {
     "props": {
-      "blockClass": "bt-banner-main",
-      "text": "Saiba mais",
-      "isOneClickBuy": true
+      "blockClass": "button-banner",
+      "isFullModeStyle": true,
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "textAlignment": "center"
     }
   }
+  
+  
   
 }

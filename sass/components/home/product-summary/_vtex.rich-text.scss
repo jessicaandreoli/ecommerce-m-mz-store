@@ -1,0 +1,15 @@
+.paragraph {
+  &--shelfTitle {
+    font-size: 2.625rem;
+    font-weight: 500;
+    color: $second-color1-500;
+  }
+}
+
+.container {
+  &--shelfTitle {
+    background: $third-color-50;
+    margin-top: 7rem;
+    padding: 3.5625rem 0 2.375rem;
+  }
+}

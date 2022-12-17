@@ -1,0 +1,21 @@
+.flexRowContent {
+  &--tipbar {
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5625rem;
+  }
+
+  &--tipbar-content {
+  align-items: center;
+  justify-content: space-between;
+  }
+} 
+
+.flexRow {
+  &--tipbar-content {
+    padding: 2.5625rem 0;
+    border-bottom: 1px solid #CCCCCC;
+  }
+}
+
+

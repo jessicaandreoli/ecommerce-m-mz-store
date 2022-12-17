@@ -3,14 +3,6 @@
   height: 2.5rem;
 }
 
-:global(.vtex-button__label) {
-  background: $primary-color1-500;
-
-  &:hover {
-    background: $primary-color1-500;
-  }
-}
-
 :global(.vtex-button) {
   &:hover {
     border: none;

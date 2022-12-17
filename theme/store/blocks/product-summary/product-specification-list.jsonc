@@ -15,15 +15,7 @@
       "colGap": 3
     },
     "children": [
-      "rich-text#summarySpecificationBullet",
       "product-specification-values"
     ]
-  },
-  "rich-text#summarySpecificationBullet": {
-    "props": {
-      "text": "•",
-      "textColor": "c-action-primary",
-      "blockClass": "summarySpecificationBullet"
-    }
   }
 }

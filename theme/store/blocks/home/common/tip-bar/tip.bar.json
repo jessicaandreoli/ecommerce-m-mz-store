@@ -7,7 +7,8 @@
       "flex-layout.row#tipbar4"
     ],
     "props": {
-      "blockClass": "tip-bar"
+      "blockClass": "tipbar-content",
+      "colSizing": "auto"
     }
   },
 
@@ -17,13 +18,15 @@
       "rich-text#tipbar1"
     ],
     "props": {
+      "blockClass": "tipbar",
       "colSizing": "auto"
     }
   },
   "image#tipbar1": {
     "props": {
       "src": "assets/images/home/tip-bar/tip-bar.svg",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": "tipbar"
     }
   },
   "rich-text#tipbar1": {
@@ -38,13 +41,15 @@
       "rich-text#tipbar2"
     ],
     "props": {
+      "blockClass": "tipbar",
       "colSizing": "auto"
     }
   },
   "image#tipbar2": {
     "props": {
       "src": "assets/images/home/tip-bar/tip-bar.svg",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": "tipbar"
     }
   },
   "rich-text#tipbar2": {
@@ -59,13 +64,15 @@
       "rich-text#tipbar3"
     ],
     "props": {
+      "blockClass": "tipbar",
       "colSizing": "auto"
     }
   },
   "image#tipbar3": {
     "props": {
       "src": "assets/images/home/tip-bar/tip-bar.svg",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": "tipbar"
     }
   },
   "rich-text#tipbar3": {
@@ -80,18 +87,20 @@
       "rich-text#tipbar4"
     ],
     "props": {
+      "blockClass": "tipbar",
       "colSizing": "auto"
     }
   },
   "image#tipbar4": {
     "props": {
       "src": "assets/images/home/tip-bar/tip-bar.svg",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": "tipbar"
     }
   },
   "rich-text#tipbar4": {
     "props": {
-      "text": "Diferencial de compra [Saiba mais](https://help.vtex.com/en/faq/what-is-vtex-io)",
+      "text": "Diferencial de compra [saiba mais](https://help.vtex.com/en/faq/what-is-vtex-io)",
       "blockClass": "tipbar"
     }
   }

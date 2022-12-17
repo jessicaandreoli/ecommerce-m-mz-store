@@ -1,0 +1,135 @@
+{ 
+  "flex-layout.row#main-categories-content": {
+    "children":["flex-layout.col#main-categories"],
+    "props": {
+      "blockClass": "main-categories-content"
+    }
+  },
+
+  "flex-layout.col#main-categories": {
+    "children": [
+      "rich-text#text-main-categories",
+      "flex-layout.row#main-categories-img"
+    ],
+    "props": {
+      "blockClass": "main-categories"
+    }
+  },
+  "rich-text#text-main-categories": {
+    "props": {
+      "blockClass": "text-main-categories",
+      "text": "Principais Categorias"
+    }
+  },
+  "flex-layout.row#main-categories-img": {
+    "children": ["list-context.image-list#main-categories"],
+    "props": {
+      "blockClass": "main-categories-img"
+    }
+  },
+
+  "list-context.image-list#main-categories": {
+    "title": "Lista de Produtos Principais", 
+    "children": [
+      "slider-layout#main-categories"
+  ],
+    "props": {
+      "blockClass": "list-main-categories",
+      "height": 255,
+      "images": [
+        {
+          "image": "assets/images/home/main-categories/category-1.png",
+          "mobileImage": "assets/images/home/main-categories/category-1.png",
+          "description": "Imagem categoria 1",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 1"
+          }
+        },
+        {
+          "image": "assets/images/home/main-categories/category-2.png",
+          "mobileImage": "assets/images/home/main-categories/category-2.png",
+          "description": "Categoria 2",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 2"
+          }
+        },
+        {
+          "image": "assets/images/home/main-categories/category-3.png",
+          "mobileImage": "assets/images/home/main-categories/category-3.png",
+          "description": "Categoria 3",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 3"
+          }
+        },
+        {
+          "image": "assets/images/home/main-categories/category-4.png",
+          "mobileImage": "assets/images/home/main-categories/category-4.png",
+          "description": "Categoria 4",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 4"
+          }
+        },
+        {
+          "image": "assets/images/home/main-categories/category-5.png",
+          "mobileImage": "assets/images/home/main-categories/category-5.png",
+          "description": "Categoria 5",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 5"
+          }
+        },
+        {
+          "image": "assets/images/home/main-categories/category-6.png",
+          "mobileImage": "assets/images/home/main-categories/category-6.png",
+          "description": "Categoria 6",
+          "width": "100%",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Categoria 6"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#main-categories": {
+    "title": "Slider de Categorias Principais",
+    "props": {
+      "blockClass": "main-categories",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "fullWidth": true,
+      "showPaginationDots": "mobileOnly",
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 7000
+      }
+    }
+  }
+}
+  
