@@ -1,0 +1,29 @@
+.listPrice {
+  &--summary {
+    font-size: .75rem;
+    line-height: .875rem;
+    color: $second-color3-200;
+    margin-bottom: 0;
+  }
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue--summary){//não
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: $primary-color-bg-pure-500 !important;
+}
+
+:global(.vtex-product-price-1) {//não
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: $primary-color-bg-pure-500 !important;
+}
+
+.sellingPrice--summary--hasListPrice {//não
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: linear-gradient(90deg, #FC5252 0%, #F26F25 100%);
+}

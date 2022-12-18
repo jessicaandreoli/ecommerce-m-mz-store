@@ -11,3 +11,9 @@
   right: 8.5rem;
   top: -174px;
 }
+
+.infoCardContainer {
+  &--button-banner {
+    border: none;
+  }
+}

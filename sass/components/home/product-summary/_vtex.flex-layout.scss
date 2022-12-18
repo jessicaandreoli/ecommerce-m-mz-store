@@ -1,0 +1,11 @@
+.flexRow {
+  &--shelf {
+    background: $third-color-50;
+  }
+}
+.flexRowContent {
+  &--selling-orice-savings {
+    align-items: center;
+    gap: 1.5rem;
+  }
+}

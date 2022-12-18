@@ -1,0 +1,23 @@
+.imageContainer {
+  &--image-shelf {
+    width: 13.0625rem;
+    height: 13.0625rem;
+  }
+} 
+
+.productNameContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.brandName {
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: $text-color1-500;
+}
+
+.nameContainer {
+  padding-top: .8125rem;
+  padding-bottom: 1.125rem;
+}

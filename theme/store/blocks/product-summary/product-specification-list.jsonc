@@ -12,7 +12,8 @@
   "flex-layout.row#summarySpecificationValues": {
     "props": {
       "preventHorizontalStretch": true,
-      "colGap": 3
+      "colGap": 3,
+      "blockClass": "summarySpecificationValues"
     },
     "children": [
       "product-specification-values"

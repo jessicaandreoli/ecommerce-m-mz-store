@@ -1,0 +1,24 @@
+.imageElementLink {
+  &--wishList-product {
+    display: flex;
+    align-self: flex-end;
+    margin-right: .8281rem;
+  }
+}
+
+.imageElement {
+  &--wishList-product {
+    transform: all .2s;
+    &:hover {
+      background-image: url("assets/images/home/product-summary/heart-color.png");
+    }
+
+    &:active {
+      background-image: url("assets/images/home/product-summary/heart-color.png");
+    }
+
+    &:focus {
+      background-image: url("assets/images/home/product-summary/heart-color.png");
+    }
+  }
+}

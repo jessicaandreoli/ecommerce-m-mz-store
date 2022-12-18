@@ -96,7 +96,8 @@
   "flex-layout.row#buyButtonsSummaryListDesktop": {
     "props": {
       "colSizing": "auto",
-      "colGap": 5
+      "colGap": 5,
+      "blockClass": "buyButtonsSummaryListDesktop"
     },
     "children": [
       "add-to-cart-button",
@@ -123,15 +124,20 @@
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
       "product-selling-price#summary"
-      //"product-list-price#summary"
-    ]
+    ],
+    "props": {
+      "blockClass": "priceSummaryListDesktop"
+    }
   },
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
-    ]
+    ],
+    "props": {
+      "blockClass": "summaryListDesktop"
+    }
   },
   "product-summary-image#summaryListDesktop": {
     "props": {
@@ -192,7 +198,8 @@
   },
   "flex-layout.col#summaryDownDetailsListMobile": {
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "summaryDownDetailsListMobile"
     },
     "children": [
       "product-selling-price#summary",

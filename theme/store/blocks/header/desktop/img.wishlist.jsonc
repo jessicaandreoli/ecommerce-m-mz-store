@@ -1,0 +1,15 @@
+{
+  "image#wishlist": {
+    "props": {
+      "blockClass": "wishList",
+      "src": "assets/images/header/store-header/heart.svg",
+      "maxHeight": "18.23",
+      "maxWidth": "20.9",
+      "link": {
+        "openNewTab": false,
+        "title": "Favorites",
+        "url": "/account/#/wishlist"
+      }
+    }
+  }
+}
