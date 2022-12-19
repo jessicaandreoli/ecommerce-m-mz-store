@@ -22,3 +22,19 @@
     }
   }
 }
+
+.infoCardContainer {
+  &--info-card-summary {
+    border: none;
+  }
+}
+
+.infoCardCallActionContainer {
+  &--info-card-summary {
+    margin: 0;
+    width: 13rem !important;
+    height: 2.75rem !important;
+  }
+} 
+
+

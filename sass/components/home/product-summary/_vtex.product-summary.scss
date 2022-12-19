@@ -7,17 +7,19 @@
 
 .productNameContainer {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  width: 15.1875rem;
+  height: 2.875rem;
 }
 
-.brandName {
-  font-weight: 700;
-  font-size: .875rem;
-  line-height: 1.25rem;
-  color: $text-color1-500;
+:global(.vtex-product-summary-2-x-brandName) {
+  font-weight: 700 !important;
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
+  color: $text-color1-500 !important;
 }
 
 .nameContainer {
-  padding-top: .8125rem;
-  padding-bottom: 1.125rem;
+  padding-top: .6875rem !important;
+  padding-bottom: 1.125rem !important;
 }

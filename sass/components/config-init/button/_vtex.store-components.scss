@@ -1,0 +1,8 @@
+:global(.vtex-button) {
+  @include button-main;
+}
+
+:global(.vtex-button__label) {
+  padding: 0 !important;
+  text-transform: none !important;
+}

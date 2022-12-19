@@ -1,29 +1,48 @@
-.listPrice {
-  &--summary {
-    font-size: .75rem;
-    line-height: .875rem;
-    color: $second-color3-200;
-    margin-bottom: 0;
-  }
+:global(.vtex-product-price-1-x-listPrice) {
+  font-size: .75rem !important;
+    line-height: .875rem !important;
+    color: $second-color3-200!important;
+    margin-bottom: 0!important;
 }
 
-:global(.vtex-product-price-1-x-sellingPriceValue--summary){//não
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.3125rem;
-  color: $primary-color-bg-pure-500 !important;
+:global(.vtex-product-price-1-x-sellingPriceValue--summary-one){
+  font-weight: 700 !important;
+  font-size: 1.125rem !important;
+  line-height: 1.3125rem !important;
+  background: linear-gradient(90deg, #FC5252 0%, #F26F25 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-:global(.vtex-product-price-1) {//não
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.3125rem;
-  color: $primary-color-bg-pure-500 !important;
+:global(.vtex-product-price-1-x-installments--summary-tree) {
+  font-size: $font-size-secondary;
+  font-weight: 400;
+  color: $second-color3-200!important;
 }
 
-.sellingPrice--summary--hasListPrice {//não
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.3125rem;
-  color: linear-gradient(90deg, #FC5252 0%, #F26F25 100%);
+:global(.vtex-product-price-1-x-installmentsNumber--summary-tree) {
+  font-weight: 700 !important;
+  color: $text-color1-500;
+}
+
+:global(.vtex-product-price-1-x-currencyCode--summary-tree) {
+  font-weight: 700 !important;
+  color: $text-color1-500;
+}
+
+:global(.vtex-product-price-1-x-currencyInteger--summary-tree) {
+  font-weight: 700 !important;
+  color: $text-color1-500;
+}
+
+:global(.vtex-product-price-1-x-currencyDecimal--summary-tree) {
+  font-weight: 700 !important;
+  color: $text-color1-500;
+}
+
+:global(.vtex-product-price-1-x-currencyFraction--summary-tree) {
+  font-weight: 700 !important;
+  color: $text-color1-500;
 }

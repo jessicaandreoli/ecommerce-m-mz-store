@@ -1,8 +1,11 @@
 .slideChildrenContainer {
   &--shelf {
     background-color: $second-color3-500;
-    width: 18.25rem;
     height: 27.125rem;
     border-radius: .625rem;
   }
+}
+
+:global(.vtex-slider-layout-0-x-slide--shelf) {
+  min-height: 32.4375rem !important;
 }

@@ -34,7 +34,7 @@
       "vtex.product-highlights@2.x:product-highlights#collection",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
-      "add-to-cart-button#button-summary"
+      "info-card#info-card-summary"
     ],
     "props": {
       "blockClass": "summary-shelf",
@@ -105,7 +105,7 @@
 
   "product-list-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary-two"
     }
   },
   "flex-layout.row#selling-price-savings": {
@@ -122,19 +122,23 @@
   },
   "product-installments#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary-tree"
     }
   },
   "product-selling-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary-one"
     }
   },
 
-  "add-to-cart-button#button-summary" :{
+  "info-card#info-card-summary" :{
     "props": {
-      "blockClass": "button-summary",
-      "text": "Ver detalhes",
+      "id": "info-card-summary",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionText": "Ver detalhes",
+      "blockClass": "info-card-summary",
+      "textAlignment": "center",
       "displayBuyButton": "enum"
     }
   }

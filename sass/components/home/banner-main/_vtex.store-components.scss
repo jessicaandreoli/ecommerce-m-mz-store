@@ -7,9 +7,13 @@
 }
 
 .infoCardCallActionContainer {
-  position: absolute;
-  right: 8.5rem;
-  top: -174px;
+  &--button-banner {
+    position: absolute;
+    right: 0.6rem;
+    top: -174px;
+    width: 16.5625rem;
+    height: 2.75rem;
+  }
 }
 
 .infoCardContainer {
