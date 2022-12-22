@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "blockClass": "shelf"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass":"demo1"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Mais Vendidos em Tênis",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf-news": {
+    "children": ["list-context.product-list#demo2"],
+    "props": {
+      "blockClass": "shelf-news"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf#news"],
+    "children": ["slider-layout#demo-products-news"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass":"demo2"
+    }
+  },
+  "slider-layout#demo-products-news": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-news"
+    }
+  },
+  "rich-text#shelf-title-news": {
+    "props": {
+      "text": "Acabou de Chegar",
+      "blockClass": "shelfTitle-news"
+    }
+  }
+}

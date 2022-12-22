@@ -1,0 +1,269 @@
+{
+  "product-summary.shelf#news": {
+    "children": [
+      "image#wishlist-product",
+      "stack-layout#prodsum-news",
+      "product-summary-name",
+      "flex-layout.col#summary-shelf-news"
+    ]
+  },
+
+  "stack-layout#prodsum-news": {
+    "children": [
+      "product-summary-image#shelf-news"
+      //"modal-trigger#quickview" // Check quickview.jsonc
+    ],
+    "props": {
+      "blockClass": "prodsum"
+    }
+  },
+
+  "product-summary-image#shelf-news": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 209,
+      "maxWidth": 209,
+      "blockClass": "image-shelf"
+    }
+  },
+
+  "flex-layout.col#summary-shelf-news": {
+    "children": [
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "flex-layout.row#highlights-lineOne",
+      "flex-layout.row#highlights-lineTwo"
+    ],
+    "props": {
+      "blockClass": "summary-shelf",
+      "horizontalAlign": "center"
+    }
+  },
+"flex-layout.row#highlights-lineOne": {
+  "children": ["vtex.product-highlights@2.x:product-highlights#lineOne"],
+  "props": {
+    "blockClass": "highlights-lineOne",
+    "rowGap": 20
+  }
+},
+
+"flex-layout.row#highlights-lineTwo": {
+  "children": ["vtex.product-highlights@2.x:product-highlights#lineTwo"],
+  "props": {
+    "blockClass": "highlights-lineTwo"
+  }
+},
+
+    "vtex.product-highlights@2.x:product-highlights#lineOne": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Lançamento", "Frete Grátis"],
+          "blockClass": "highlights-lineOne"
+        }
+      },
+      "children": ["product-highlight-text"]
+    },
+    "product-highlight-text": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "promotions"
+      }
+    },
+
+    "vtex.product-highlights@2.x:product-highlights#lineTwo": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Black Friday"],
+          "blockClass": "highlights-lineTwo"
+        }
+      },
+      "children": ["product-highlight-text#lineTwo"]
+    },
+    "product-highlight-text#lineTwo": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "promotions"
+      }
+    },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary-two"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": "selling-orice-savings"
+    },
+    "children": [
+      "product-list-price#summary",
+      "product-selling-price#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary-tree"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary-one"
+    }
+  },
+
+  "flex-layout.row#products-secondLine-block-news": {
+    "children": [
+      "flex-layout.col#fourth-product-block-news",
+      "flex-layout.col#fifth-product-block-news",
+      "flex-layout.col#sixth-product-block-news",
+      "flex-layout.col#seventh-product-block-news"
+    ],
+    "props": {
+      "blockClass": "products-secondLine-block-news"
+    }
+  },
+
+  "flex-layout.col#fourth-product-block-news": {
+    "children": [
+      "image#fourth-product-block-news",
+      "rich-text#fourth-product-block-news",
+      "info-card#info-card-summary"
+    ],
+    "props": {
+      "blockClass": "product-second-line",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }, 
+
+  "flex-layout.col#fifth-product-block-news": {
+    "children": [
+      "image#fifth-product-block-news",
+      "rich-text#fifth-product-block-news",
+      "info-card#info-card-summary"
+    ],
+    "props": {
+      "blockClass": "product-second-line",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }, 
+
+  "flex-layout.col#sixth-product-block-news": {
+    "children": [
+      "image#sixth-product-block-news",
+      "rich-text#sixth-product-block-news",
+      "info-card#info-card-summary"
+    ],
+    "props": {
+      "blockClass": "product-second-line",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }, 
+
+  "flex-layout.col#seventh-product-block-news": {
+    "children": [
+      "image#seventh-product-block-news",
+      "rich-text#seventh-product-block-news",
+      "info-card#info-card-summary"
+    ],
+    "props": {
+      "blockClass": "product-second-line",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }, 
+
+  "image#fourth-product-block-news": {
+    "props": {
+      "blockClass": "fourth-product-block-news",
+      "src": "assets/images/home/product-summary/fourth.png",
+      "maxHeight": "182",
+      "maxWidth": "182",
+      "link": {
+        "openNewTab": false,
+        "title": "Product",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#fourth-product-block-news": {
+    "props": {
+      "blockClass": "product-second-line",
+      "text": "Relógios"
+    }
+  },
+
+  "image#fifth-product-block-news": {
+    "props": {
+      "blockClass": "fifth-product-block-news",
+      "src": "assets/images/home/product-summary/fifth.png",
+      "maxHeight": "182",
+      "maxWidth": "182",
+      "link": {
+        "openNewTab": false,
+        "title": "Product",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#fifth-product-block-news": {
+    "props": {
+      "blockClass": "product-second-line",
+      "text": "Halteres"
+    }
+  },
+
+  "image#sixth-product-block-news": {
+    "props": {
+      "blockClass": "sixth-product-block-news",
+      "src": "assets/images/home/product-summary/sixth.png",
+      "maxHeight": "182",
+      "maxWidth": "182",
+      "link": {
+        "openNewTab": false,
+        "title": "Product",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#sixth-product-block-news": {
+    "props": {
+      "blockClass": "product-second-line",
+      "text": "Malas"
+    }
+  },
+  "image#seventh-product-block-news": {
+    "props": {
+      "blockClass": "seventh-product-block-news",
+      "src": "assets/images/home/product-summary/seventh.png",
+      "maxHeight": "182",
+      "maxWidth": "182",
+      "link": {
+        "openNewTab": false,
+        "title": "Product",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#seventh-product-block-news": {
+    "props": {
+      "blockClass": "product-second-line",
+      "text": "Capacetes"
+    }
+  }
+}
+

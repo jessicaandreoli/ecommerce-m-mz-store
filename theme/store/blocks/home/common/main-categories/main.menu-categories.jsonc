@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#category-main-menu": {
+    "children": ["flex-layout.col#category-main-menu"],
+    "props": {
+      "blockClass": "category-main-menu"
+    }
+  },
+
+  "flex-layout.col#category-main-menu": {
+    "children": [
+      "rich-text#text-main-categories",
+      "vtex.menu@2.x:menu#category-menu-main"
+    ],
+    "props": {
+      "blockClass": "category-main-menu",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+},
+
+  "rich-text#text-main-categories": {
+    "props": {
+      "blockClass": "text-main-categories",
+      "text": "Principais Categorias"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category-menu-main": {
+    "props": {
+      "blockClass": "category-menu",
+      "experimentalOptimizeRendering": true
+    },
+    "children": ["flex-layout.row#slider-layout-categories"]
+  },
+
+  "flex-layout.row#slider-layout-categories": {
+    "children": ["slider-layout#main-categories"],
+    "props": {
+      "blockClass": "slider-layout-categories"
+    }
+  },
+
+  "slider-layout#main-categories": {
+    "title": "Slider de Categorias Principais",
+    "children": [
+      "info-card#category-1",
+      "info-card#category-2",
+      "info-card#category-3",
+      "info-card#category-4",
+      "info-card#category-5",
+      "info-card#category-6"
+    ],
+    "props": {
+      "blockClass": "main-categories",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 1,
+        "phone": 1
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone":"to-the-left"
+      },
+      "usePagination": true,
+      "showPaginationDots": "mobileOnly",
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 7000
+      }
+    }
+  },
+
+  "info-card#category-1": {
+    "props": {
+      "id": "info-card-category-1",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-1.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 1",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#category-2": {
+    "props": {
+      "id": "info-card-category-2",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-2.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 2",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#category-3": {
+    "props": {
+      "id": "info-card-category-3",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-3.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 3",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#category-4": {
+    "props": {
+      "id": "info-card-category-4",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-4.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 4",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#category-5": {
+    "props": {
+      "id": "info-card-category-5",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-5.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 5",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#category-6": {
+    "props": {
+      "id": "info-card-category-6",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/images/home/main-categories/category-6.png",
+      "textPosition": "center",
+      "callToActionText": "Categoria 6",
+      "callToActionUrl": "#",
+      "blockClass": "category",
+      "textAlignment": "center"
+    }
+  }
+
+  
+
+}
+

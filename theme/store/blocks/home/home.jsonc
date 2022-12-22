@@ -3,62 +3,22 @@
     "blocks": [
       "list-context.image-list#main-banner",
       "flex-layout.row#tip-bar",
-      "flex-layout.row#main-categories-content",
+      "flex-layout.row#category-main-menu",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
+      "flex-layout.row#section-product-casual",
+      "flex-layout.row#products-diversified",
+      "rich-text#shelf-title-news",
+      "flex-layout.row#shelf-news",
+      "flex-layout.row#products-secondLine-block-news",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
   },
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "Mais Vendidos em Tênis",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"],
-    "props": {
-      "blockClass": "shelf"
-    }
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "blockClass":"demo1"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
+  
+  
 
   "rich-text#question": {
     "props": {

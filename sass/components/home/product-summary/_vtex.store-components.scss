@@ -8,6 +8,9 @@
 
 .imageElement {
   &--wishList-product {
+    position: absolute;
+    top: .8125rem;
+    right: 1.0625rem;
     transform: all .2s;
     &:hover {
       background-image: url("assets/images/home/product-summary/heart-color.png");
@@ -21,10 +24,18 @@
       background-image: url("assets/images/home/product-summary/heart-color.png");
     }
   }
+
+  &--product {
+    padding: 7.0625rem 6.375rem 1.6875rem 2.125rem;
+  }
 }
 
 .infoCardContainer {
   &--info-card-summary {
+    border: none;
+  }
+
+  &--button-product-diversified {
     border: none;
   }
 }
@@ -34,7 +45,79 @@
     margin: 0;
     width: 13rem !important;
     height: 2.75rem !important;
+    
+    // &:hover::after {
+    //   overflow: visible;
+    // }
   }
-} 
+  &--button-product-diversified {
+    border-radius: 5000px !important;
+    width: 8.75rem !important;
+    height: 2.625rem !important;
+  }
+}
+  
+.infoCardTextContainer {
+  &--info-card-product-casual {
+    background: $third-color-50;
+    border-radius: .625rem;
+    height: 100%;
+    justify-content: center;
+    padding-left: 2.8125rem;
+  }
 
+  &--button-product-diversified :first-child {
+    background: transparent !important;
+    border: 1px solid rgba(252, 82, 82, 0.15) !important;
+    color: #F26F25;
+  }
 
+  &--category :first-child {
+    background: $second-color1-500 !important;
+  }
+}
+
+.infoCardContainer {
+  &--info-card-product-casual {
+    display: flex;
+    gap: 1.1369rem
+  }
+
+  &--button-product-diversified {
+    margin-right: 1.625rem;
+  }
+}
+
+.infoCardHeadline {
+  &--info-card-product-casual {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: $text-color-100;
+  }
+}
+
+.infoCardSubhead {
+  &--info-card-product-casual {
+    margin-top: 1rem !important;
+    width: 31rem;
+    font-weight: 400;
+    font-size: $font-size-base;
+    line-height: 1.25rem;
+    color: $text-color-50;
+  }
+}
+
+.infoCardCallActionContainer {
+  &--info-card-product-casual {
+    @include button-main;
+    width: 13.3125rem;
+    height: 2.625rem;
+    margin-top: 2rem !important;
+  }
+
+  &--button-product-diversified {
+    margin: 0;
+  }
+}

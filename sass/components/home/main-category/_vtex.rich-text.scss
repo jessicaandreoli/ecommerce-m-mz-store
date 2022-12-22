@@ -2,6 +2,13 @@
   &--text-main-categories {
     font-size: 2.625rem;
     font-weight: 500;
+    line-height: 3.0162rem;
     color: $second-color1-500;
+  }
+}
+
+.container {
+  &--text-main-categories {
+    margin: 4rem 0 2.375rem;
   }
 }

@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#summaryListMobile": {
+    "props":{
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "summaryListMobile",
+      "colGap": 5
+    },
+    "children": [
+      "stack-layout#summaryListMobile",
+      "flex-layout.col#summaryDetailsListMobile"
+    ]
+  },
+  "stack-layout#summaryListMobile": {
+    "children": [
+      "product-summary-image#summaryListMobile",
+      "vtex.product-highlights@2.x:product-highlights#lineOne",
+      "vtex.product-highlights@2.x:product-highlights#lineTwo",
+      "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+  "product-summary-image#summaryListMobile": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 220,
+      "blockClass": "summaryListMobile"
+    }
+  },
+  "flex-layout.col#summaryDetailsListMobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "grow",
+      "blockClass": "summaryDetailsListMobile"
+    },
+    "children": [
+      "flex-layout.col#summaryUpDetailsListMobile",
+      "flex-layout.col#summaryDownDetailsListMobile"
+    ]
+  },
+  "flex-layout.col#summaryUpDetailsListMobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "summaryUpDetailsListMobile"
+    },
+    "children": [
+      "vtex.store-components:product-brand#summaryListMobile",
+      "product-summary-name#summaryListMobile",
+      "product-rating-inline"
+    ]
+  },
+  "flex-layout.col#summaryDownDetailsListMobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "summaryDownDetailsListMobile"
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-installments#summary"
+    ]
+  },
+  "vtex.store-components:product-brand#summaryListMobile": {
+    "props": {
+      "displayMode": "text",
+      "blockClass": "summaryListMobile"
+    }
+  },
+  "product-summary-name#summaryListMobile": {
+    "props": {
+      "tag": "div",
+      "blockClass": "summaryListMobile"
+    }
+  }
+}

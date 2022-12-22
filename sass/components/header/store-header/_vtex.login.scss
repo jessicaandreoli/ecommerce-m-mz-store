@@ -1,12 +1,5 @@
-.container {
-  :global(.vtex-button) {
-    background-color: $primary-color1-500;
-    color: $second-color3-500;
-
-    &:hover {
-      background-color: $primary-color1-500;
-    }
-  }
+:global(.vtex-login-2-x-container .vtex-button ) {
+  background: $primary-color1-500 !important;
 }
 
 .profileIcon {

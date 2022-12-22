@@ -1,0 +1,30 @@
+{
+  "product-summary.shelf#listLayout": {
+    "props": {
+      "blockClass": "listLayout"
+    },
+    "children": [
+      "responsive-layout.desktop#productSummaryList",
+      "responsive-layout.mobile#productSummaryList"
+    ]
+  },
+
+  "responsive-layout.desktop#productSummaryList": {
+    "children": [
+      "flex-layout.row#summaryListDesktop"
+    ]
+  },
+  "responsive-layout.mobile#productSummaryList": {
+    "children": [
+      "flex-layout.row#summaryListMobile"
+    ]
+  },
+  "product-price-savings#summaryPercentage": {
+    "props": {
+      "message": "{savingsPercentage}",
+      "blockClass": "summaryPercentage"
+    }
+  }
+}
+
+  

@@ -1,11 +1,77 @@
 .slideChildrenContainer {
   &--shelf {
     background-color: $second-color3-500;
-    height: 27.125rem;
+    height: 24.375rem;
+    border-radius: .625rem;
+    transition: all .2s;
+
+    &:hover {
+      height: 27.125rem;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+      transform: scale(1.01);
+    }
+    &:hover, .vtex-button   {
+      visibility: visible !important;
+    }
+  }
+
+  &--shelf-news {
+    padding-bottom: 3.875rem;
+  }
+
+  &--shelf-content {
+    height: 24.375rem;
     border-radius: .625rem;
   }
 }
 
-:global(.vtex-slider-layout-0-x-slide--shelf) {
-  min-height: 32.4375rem !important;
+.sliderTrack {
+  &--shelf {
+    justify-content: space-between;
+  }
 }
+
+.paginationDot {
+  &--shelf {
+    margin-bottom: 3.6875rem;
+    width: .5rem;
+    height: .5rem;
+
+    &--isActive {
+      background: $primary-color1-500;
+    }
+  }
+
+  &--shelf-news {
+    margin-top: 3.6875rem;
+    width: .5rem;
+    height: .5rem;
+
+    &--isActive {
+      background: $primary-color1-500;
+    }
+  }
+}
+
+.caretIcon {
+  &--shelf {
+    width: .8rem;
+    height: 1rem;
+    color: #424242;
+    border: none;
+  } 
+
+  &--shelf-news {
+    width: .8rem;
+    height: 1rem;
+    color: #424242;
+    border: none;
+  }
+}
+
+.sliderArrows {
+  &--shelf {
+    top: 11.6875rem !important;
+  }
+}
+  

@@ -13,7 +13,8 @@
     "props": {
       "blockClass": "main-header",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
     }
   },
 
@@ -60,7 +61,8 @@
       "image#nav-down"
     ],
     "props": {
-      "blockClass":"login-nav-down"
+      "blockClass":"login-nav-down",
+      "colSizing": "auto"
     }
   },
 

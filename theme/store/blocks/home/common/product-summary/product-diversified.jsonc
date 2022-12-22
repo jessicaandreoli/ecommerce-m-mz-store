@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#products-diversified": {
+    "children": [
+      "flex-layout.row#first-product",
+      "flex-layout.row#second-product",
+      "flex-layout.row#third-product"
+    ],
+    "props": {
+      "blockClass": "products-diversified",
+      "colSizing": "auto"
+      
+    }
+  },
+
+  "flex-layout.row#first-product": {
+    "children": [
+      "image#first-product",
+      "flex-layout.col#composition-first-product"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+
+  "flex-layout.col#composition-first-product": {
+    "children": [
+      "rich-text#first-product",
+      "info-card#button-product-diversified"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+
+  "image#first-product": {
+    "props": {
+      "blockClass": "product",
+      "src": "assets/images/home/product-summary/first-product.png",
+      "link": {
+        "openNewTab": false,
+        "title": "Converse",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#first-product": {
+    "props": {
+      "blockClass": "product",
+      "text": "Converse\r\n **A partir de**\r\n R$99,00",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "flex-layout.row#second-product": {
+    "children": [
+      "image#second-product",
+      "flex-layout.col#composition-second-product"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+
+  "flex-layout.col#composition-second-product": {
+    "children": [
+      "rich-text#second-product",
+      "info-card#button-product-diversified"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+
+  "image#second-product": {
+    "props": {
+      "blockClass": "product",
+      "src": "assets/images/home/product-summary/second-product.png",
+      "link": {
+        "openNewTab": false,
+        "title": "Converse",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#second-product": {
+    "props": {
+      "blockClass": "product",
+      "text": "Mochilas\r\n **A partir de**\r\n R$99,00",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "flex-layout.row#third-product": {
+    "children": [
+      "image#third-product",
+      "flex-layout.col#composition-third-product"
+    ],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+
+  "flex-layout.col#composition-third-product": {
+    "children": [
+      "rich-text#third-product",
+      "info-card#button-product-diversified"
+    ],
+    "props": {
+      "blockClass": "product",
+      "colSizing": "auto"
+    }
+  },
+
+  "image#third-product": {
+    "props": {
+      "blockClass": "product",
+      "src": "assets/images/home/product-summary/third-product.png",
+      "link": {
+        "openNewTab": false,
+        "title": "Converse",
+        "url": "#"
+      }
+    }
+  },
+
+  "rich-text#third-product": {
+    "props": {
+      "blockClass": "product",
+      "text": "Bolas\r\n **A partir de**\r\n R$99,00",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  },
+
+  "info-card#button-product-diversified": {
+    "props": {
+      "blockClass": "button-product-diversified",
+      "isFullModeStyle": true,
+      "callToActionMode": "button",
+      "callToActionText": "Ver todos",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT"
+    }
+  }
+}
+
+

@@ -1,6 +1,7 @@
 .cartIcon {
   width: 1.5rem;
   height: 2.5rem;
+  background: $primary-color1-500;
 }
 
 :global(.vtex-button) {
@@ -20,5 +21,9 @@
   background: $primary-color-bg-pure-500;
   top: -0.6rem;
   right: -2.4rem;
+}
+
+:global(.vtex-button) {
+  background: $primary-color1-500 !important;
 }
 

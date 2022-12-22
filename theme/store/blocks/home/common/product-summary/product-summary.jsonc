@@ -1,0 +1,133 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "image#wishlist-product",
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.col#summary-shelf"
+    ]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf"
+      //"modal-trigger#quickview" // Check quickview.jsonc
+    ],
+    "props": {
+      "blockClass": "prodsum"
+    }
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 209,
+      "maxWidth": 209,
+      "blockClass": "image-shelf"
+    }
+  },
+
+  "flex-layout.col#summary-shelf": {
+    "children": [
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "info-card#info-card-summary",
+      "flex-layout.row#highlights-lineOne",
+      "flex-layout.row#highlights-lineTwo"
+    ],
+    "props": {
+      "blockClass": "summary-shelf",
+      "horizontalAlign": "center"
+    }
+  },
+"flex-layout.row#highlights-lineOne": {
+  "children": ["vtex.product-highlights@2.x:product-highlights#lineOne"],
+  "props": {
+    "blockClass": "highlights-lineOne",
+    "rowGap": 20
+  }
+},
+
+"flex-layout.row#highlights-lineTwo": {
+  "children": ["vtex.product-highlights@2.x:product-highlights#lineTwo"],
+  "props": {
+    "blockClass": "highlights-lineTwo"
+  }
+},
+
+    "vtex.product-highlights@2.x:product-highlights#lineOne": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Lançamento", "Frete Grátis"],
+          "blockClass": "highlights-lineOne"
+        }
+      },
+      "children": ["product-highlight-text"]
+    },
+    "product-highlight-text": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "promotions"
+      }
+    },
+
+    "vtex.product-highlights@2.x:product-highlights#lineTwo": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Black Friday"],
+          "blockClass": "highlights-lineTwo"
+        }
+      },
+      "children": ["product-highlight-text#lineTwo"]
+    },
+    "product-highlight-text#lineTwo": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "promotions"
+      }
+    },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary-two"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": "selling-orice-savings"
+    },
+    "children": [
+      "product-list-price#summary",
+      "product-selling-price#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary-tree"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary-one"
+    }
+  },
+
+  "info-card#info-card-summary" :{
+    "props": {
+      "id": "info-card-summary",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionText": "Ver detalhes",
+      "blockClass": "info-card-summary",
+      "textAlignment": "center"
+    }
+  }
+}

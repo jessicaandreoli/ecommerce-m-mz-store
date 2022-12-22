@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#section-product-casual": {
+    "children": ["info-card#product-casual"],
+    "props": {
+      "blockClass": "section-product-casual"
+    }
+  },
+
+  "info-card#product-casual": {
+    "props": {
+      "id": "info-card-product-casual",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/images/home/product-summary/banner-infoCard-home.png",
+      "headline": "Casual",
+      "subhead": "Dirija com confiança com dispositivos de navegação pessoal projetados para carros e motos. Veja o trânsito em tempo real e navegue com segurança pelas melhores rotas. Os GPSs mais precisos você encontra aqui.",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-product-casual",
+      "textAlignment": "left"
+    }
+  }
+}
