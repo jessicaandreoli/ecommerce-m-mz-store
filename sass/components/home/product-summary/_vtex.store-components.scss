@@ -28,6 +28,22 @@
   &--product {
     padding: 7.0625rem 6.375rem 1.6875rem 2.125rem;
   }
+
+  &--product-second-line {
+    width: 10.25rem;
+    height: 10.25rem;
+    margin-bottom: 1.125rem;
+  }
+  &--first-banner-finish-home {
+    width: 56.125rem!important;
+    height: 30.125rem !important;
+    border-radius: .625rem;
+  }
+  &--second-banner-finish-home {
+    width: 56.125rem!important;
+    height: 30.125rem !important;
+    border-radius: .625rem;
+  }
 }
 
 .infoCardContainer {
@@ -36,6 +52,10 @@
   }
 
   &--button-product-diversified {
+    border: none;
+  }
+
+  &--product-block-news-second-line {
     border: none;
   }
 }
@@ -54,6 +74,13 @@
     border-radius: 5000px !important;
     width: 8.75rem !important;
     height: 2.625rem !important;
+  }
+
+  &--product-block-news-second-line {
+    border-radius: 5000px !important;
+    width: 8.75rem !important;
+    height: 2.625rem !important;
+    margin: 0;
   }
 }
   
@@ -74,6 +101,12 @@
 
   &--category :first-child {
     background: $second-color1-500 !important;
+  }
+
+  &--product-block-news-second-line :first-child {
+    background: transparent !important;
+    border: 1px solid rgba(252, 82, 82, 0.15) !important;
+    color: #F26F25;
   }
 }
 

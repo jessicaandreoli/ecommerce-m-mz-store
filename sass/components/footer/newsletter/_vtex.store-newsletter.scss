@@ -1,0 +1,23 @@
+.formSubmitContainer {
+  &--newsletter :first-child {
+    width: 6.6875rem;
+    height: 2.25rem;
+    background: transparent!important;
+    border: 1px solid $second-color1-500 !important;
+    border-radius: 3.125rem;
+    color: $second-color1-500;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.confirmationCheckboxContainer {
+  &--newsletter {
+    margin-left: 20rem;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.4375rem;
+    color: $text-color-400;
+  }
+}

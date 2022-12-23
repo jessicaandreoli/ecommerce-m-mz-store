@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#newsletter-form": {
+    "children": ["newsletter-form"],
+    "props": {
+      "blockClass": "newsletter-form",
+      "horizontalAlign": "center"
+    }
+  },
+  
+  "newsletter-form": {
+    "children": [
+      "rich-text#newsletter",
+      "flex-layout.row#newsletter",
+      "newsletter-checkbox-confirmation#newsletter"
+    ],
+    "props": {
+      "blockClass":"newsletter-form"
+    } 
+  },
+
+  "rich-text#newsletter": {
+    "props": {
+      "blockClass":"newsletter",
+      "text": "Fique por dentro de nossas novidades e promoções em primeira mão"
+    }
+  },
+
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.row#newsletter-email",
+      "newsletter-submit#newsletter"
+
+    ],
+    "props": {
+      "blockClass": "newsletter",
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 16
+    }
+  },
+
+  "flex-layout.row#newsletter-email": {
+    "children":[
+      "image#envelope",
+      "newsletter-input-email#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter-email",
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+  "newsletter-input-email#newsletter": {
+    "props": {
+      "blockClass":"newsletter",
+      "placeholderText": "Digite aqui seu email",
+      "errorMessage": "Invalid email address"
+    }
+  },
+
+  "image#envelope": {
+    "props": {
+      "blockClass": "envelope",
+      "src": "assets/images/footer/newsletter/envelope.svg",
+      "maxHeight": "24",
+      "maxWidth": "24"
+    }
+  },
+
+  "newsletter-submit#newsletter": {
+    "props": {
+      "blockClass": "newsletter",
+      "submitButtonLabel": "Enviar"
+    }
+  },
+  
+  "newsletter-checkbox-confirmation#newsletter": {
+    "props": {
+      "blockClass": "newsletter",
+      "checkboxLabel": "Eu aceito receber informações no meu e-mail"
+    }
+  }
+}

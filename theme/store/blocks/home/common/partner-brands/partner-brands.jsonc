@@ -1,0 +1,126 @@
+{
+  "flex-layout.row#partner-brands": {
+    "children": ["list-context.image-list#partner-brands"],
+    "props": {
+      "blockClass": "partner-brands"
+    }
+  },
+  "list-context.image-list#partner-brands": {
+    "title": "Lista de marcas parceiras", 
+    "children": ["slider-layout#partner-brands"],
+    "props": {
+      "blockClass": "partner-brands",
+      "height": 73,
+      "images": [
+        {
+          "image": "assets/images/home/partner-brands/image1.png",
+          "mobileImage": "assets/images/home/partner-brands/image1.png",
+          "description": "Primeira marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image2.png",
+          "mobileImage": "assets/images/home/partner-brands/image2.png",
+          "description": "Segunda marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image3.png",
+          "mobileImage": "assets/images/home/partner-brands/image3.png",
+          "description": "Terceira marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image4.png",
+          "mobileImage": "assets/images/home/partner-brands/image4.png",
+          "description": "Quarta marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image5.png",
+          "mobileImage": "assets/images/home/partner-brands/image5.png",
+          "description": "Quinta marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image1.png",
+          "mobileImage": "assets/images/home/partner-brands/image1.png",
+          "description": "Sexta marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image2.png",
+          "mobileImage": "assets/images/home/partner-brands/image2.png",
+          "description": "Setima marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        },
+        {
+          "image": "assets/images/home/partner-brands/image3.png",
+          "mobileImage": "assets/images/home/partner-brands/image3.png",
+          "description": "Setima marca parceira",
+          "link": {
+            "url": "#",
+            "noFollow": false,
+            "openNewTab": false,
+            "title": "Saiba mais"
+          }
+        }
+      ]
+    }
+  },
+  
+  "slider-layout#partner-brands": {
+    "title": "Slider de marcas parceiras",
+    "props": {
+      "blockClass": "partner-brands",
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 7000
+      }
+    }
+  }
+}

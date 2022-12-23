@@ -1,0 +1,10 @@
+.container {
+  &--newsletter {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: $second-color1-500;
+    margin-bottom: 1.625rem;
+  }
+}

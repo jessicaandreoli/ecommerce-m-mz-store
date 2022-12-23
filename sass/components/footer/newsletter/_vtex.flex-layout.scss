@@ -1,0 +1,20 @@
+.flexRow {
+  &--newsletter-form {
+    background: $third-color-50;
+    padding: 3rem 0 1.9375rem;
+  }
+}
+
+.flexRowContent {
+  &--newsletter {
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: .3125rem;
+  }
+  &--newsletter-email {
+    align-items: center;
+  }
+}
+
+

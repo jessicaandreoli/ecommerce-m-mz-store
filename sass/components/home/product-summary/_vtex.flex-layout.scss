@@ -6,6 +6,16 @@
   &--shelf-news {
     background: $second-color3-500;
   }
+
+  &--products-secondLine-block-news {
+    margin-top: 3.5rem;
+  }
+  &--banners-finish-home {
+    margin: 4.25rem 0 5.5625rem;
+  }
+  &--banners-finish-home :first-child {
+    max-width: inherit !important;
+  }
 }
 .flexRowContent {
   &--selling-orice-savings {
@@ -41,6 +51,13 @@
     border-radius: 1.25rem;
     background: $third-color-50;
   }
+  &--products-secondLine-block-news {
+    gap: .75rem;
+  }
+  &--banners-finish-home {
+    max-width: inherit;
+    gap: 1rem;
+  }
 }
 
 .flexColChild {
@@ -58,6 +75,7 @@
   &--product-second-line {
     width: 19.4375rem;
     height: 18.5rem;
+    background: $third-color-50;
   }
 }
 

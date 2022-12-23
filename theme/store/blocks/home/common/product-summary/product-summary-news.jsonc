@@ -135,7 +135,7 @@
     "children": [
       "image#fourth-product-block-news",
       "rich-text#fourth-product-block-news",
-      "info-card#info-card-summary"
+      "info-card#product-block-news-second-line"
     ],
     "props": {
       "blockClass": "product-second-line",
@@ -148,7 +148,7 @@
     "children": [
       "image#fifth-product-block-news",
       "rich-text#fifth-product-block-news",
-      "info-card#info-card-summary"
+      "info-card#product-block-news-second-line"
     ],
     "props": {
       "blockClass": "product-second-line",
@@ -161,7 +161,7 @@
     "children": [
       "image#sixth-product-block-news",
       "rich-text#sixth-product-block-news",
-      "info-card#info-card-summary"
+      "info-card#product-block-news-second-line"
     ],
     "props": {
       "blockClass": "product-second-line",
@@ -174,7 +174,7 @@
     "children": [
       "image#seventh-product-block-news",
       "rich-text#seventh-product-block-news",
-      "info-card#info-card-summary"
+      "info-card#product-block-news-second-line"
     ],
     "props": {
       "blockClass": "product-second-line",
@@ -185,7 +185,7 @@
 
   "image#fourth-product-block-news": {
     "props": {
-      "blockClass": "fourth-product-block-news",
+      "blockClass": "product-second-line",
       "src": "assets/images/home/product-summary/fourth.png",
       "maxHeight": "182",
       "maxWidth": "182",
@@ -206,7 +206,7 @@
 
   "image#fifth-product-block-news": {
     "props": {
-      "blockClass": "fifth-product-block-news",
+      "blockClass": "product-second-line",
       "src": "assets/images/home/product-summary/fifth.png",
       "maxHeight": "182",
       "maxWidth": "182",
@@ -227,7 +227,7 @@
 
   "image#sixth-product-block-news": {
     "props": {
-      "blockClass": "sixth-product-block-news",
+      "blockClass": "product-second-line",
       "src": "assets/images/home/product-summary/sixth.png",
       "maxHeight": "182",
       "maxWidth": "182",
@@ -247,7 +247,7 @@
   },
   "image#seventh-product-block-news": {
     "props": {
-      "blockClass": "seventh-product-block-news",
+      "blockClass": "product-second-line",
       "src": "assets/images/home/product-summary/seventh.png",
       "maxHeight": "182",
       "maxWidth": "182",
@@ -263,6 +263,17 @@
     "props": {
       "blockClass": "product-second-line",
       "text": "Capacetes"
+    }
+  },
+
+  "info-card#product-block-news-second-line" :{
+    "props": {
+      "id": "product-block-news-second-line",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionText": "Ver todos",
+      "blockClass": "product-block-news-second-line",
+      "textAlignment": "center"
     }
   }
 }
