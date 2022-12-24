@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#newsletter-form": {
+  "flex-layout.row#newsletter-form-desktop": {
     "children": ["newsletter-form"],
     "props": {
       "blockClass": "newsletter-form",
@@ -10,8 +10,7 @@
   "newsletter-form": {
     "children": [
       "rich-text#newsletter",
-      "flex-layout.row#newsletter",
-      "newsletter-checkbox-confirmation#newsletter"
+      "flex-layout.col#newsletter"
     ],
     "props": {
       "blockClass":"newsletter-form"
@@ -24,6 +23,17 @@
       "text": "Fique por dentro de nossas novidades e promoções em primeira mão"
     }
   },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#checkbox-newsletter"
+
+    ],
+    "props": {
+      "blockClass":"newsletter",
+      "horizontalAlign": "left"
+    }
+  },
 
   "flex-layout.row#newsletter": {
     "children": [
@@ -34,8 +44,7 @@
     "props": {
       "blockClass": "newsletter",
       "colSizing": "auto",
-      "horizontalAlign": "left",
-      "colGap": 16
+      "horizontalAlign": "center"
     }
   },
 
@@ -48,7 +57,7 @@
       "blockClass": "newsletter-email",
       "colSizing": "auto",
       "horizontalAlign": "left",
-      "verticalAlign": "middle"
+      "verticalAlign": "bottom"
     }
   },
   "newsletter-input-email#newsletter": {
@@ -72,6 +81,13 @@
     "props": {
       "blockClass": "newsletter",
       "submitButtonLabel": "Enviar"
+    }
+  },
+
+  "flex-layout.row#checkbox-newsletter": {
+    "children": ["newsletter-checkbox-confirmation#newsletter"],
+    "props": {
+      "blockClass": "checkbox-newsletter"
     }
   },
   

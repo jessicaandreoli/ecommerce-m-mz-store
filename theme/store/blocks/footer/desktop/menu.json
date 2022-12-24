@@ -1,0 +1,339 @@
+{
+  "vtex.menu@2.x:menu#institutional": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "itemProps": {
+          "text": "Institucional"
+          }
+        }
+      ]
+    },
+    "children": [
+      "menu-item#link-1-institutional",
+      "menu-item#link-2-institutional",
+      "menu-item#link-3-institutional",
+      "menu-item#link-4-institutional",
+      "menu-item#link-5-institutional",
+      "menu-item#link-6-institutional",
+      "menu-item#link-7-institutional"
+      
+    ]
+  },
+  "menu-item#link-1-institutional": {
+    "props": {
+      "id": "menu-item-link-1-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link1",
+        "text": "Link 1"
+      }
+    }
+  },
+  "menu-item#link-2-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-2-institutional",
+      "id": "menu-item-link-2-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link2",
+        "text": "Link 2"
+      }
+    }
+  },
+  "menu-item#link-3-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-3-institutional",
+      "id": "menu-item-link-3-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link3",
+        "text": "Link-3"
+      }
+    }
+  },
+  "menu-item#link-4-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-4-institutional",
+      "id": "menu-item-link-4-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link4",
+        "text": "Link 4"
+      }
+    }
+  },
+  "menu-item#link-5-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-5-institutional",
+      "id": "menu-item-link-5-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link5",
+        "text": "Link 5"
+      }
+    }
+  },
+  "menu-item#link-6-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-6-institutional",
+      "id": "menu-item-link-6-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link6",
+        "text": "Link 6"
+      }
+    }
+  },
+  "menu-item#link-7-institutional": {
+    "props": {
+      "blockClass": "menu-item-link-7-institutional",
+      "id": "menu-item-link-7-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link7",
+        "text": "Link 7"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#help": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "itemProps": {
+          "text": "Ajuda"
+          }
+        }
+      ]
+    },
+    "children": [
+      "menu-item#link-1-help",
+      "menu-item#link-2-help",
+      "menu-item#link-3-help",
+      "menu-item#link-4-help",
+      "menu-item#link-5-help"
+    ]
+  },
+
+  "menu-item#link-1-help": {
+    "props": {
+      "blockClass": "menu-item-link-2-help",
+      "id": "menu-item-link-1-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link1",
+        "text": "Link 1"
+      }
+    }
+  },
+  "menu-item#link-2-help": {
+    "props": {
+      "blockClass": "menu-item-link-2-help",
+      "id": "menu-item-link-2-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link2",
+        "text": "Link 2"
+      }
+    }
+  },
+  "menu-item#link-3-help": {
+    "props": {
+      "blockClass": "menu-item-link-3-help",
+      "id": "menu-item-link-3-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link3",
+        "text": "Link-3"
+      }
+    }
+  },
+  "menu-item#link-4-help": {
+    "props": {
+      "blockClass": "menu-item-link-4-help",
+      "id": "menu-item-link-4-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link4",
+        "text": "Link 4"
+      }
+    }
+  },
+  "menu-item#link-5-help": {
+    "props": {
+      "blockClass": "menu-item-link-5-help",
+      "id": "menu-item-link-5-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link5",
+        "text": "Link 5"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#help-two": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "itemProps": {
+          "text": "Ajuda"
+          }
+        }
+      ]
+    },
+    "children": [
+      "menu-item#link-1-help-two",
+      "menu-item#link-2-help-two",
+      "menu-item#link-3-help-two",
+      "menu-item#link-4-help-two"
+    ]
+  },
+
+  "menu-item#link-1-help-two": {
+    "props": {
+      "blockClass": "menu-item-link-1-help-two",
+      "id": "menu-item-link-1-help-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link1",
+        "text": "Link 1"
+      }
+    }
+  },
+  "menu-item#link-2-help-two": {
+    "props": {
+      "blockClass": "menu-item-link-2-help-two",
+      "id": "menu-item-link-2-help-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link2",
+        "text": "Link 2"
+      }
+    }
+  },
+  "menu-item#link-3-help-two": {
+    "props": {
+      "blockClass": "menu-item-link-3-help-two",
+      "id": "menu-item-link-3-help-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Link3",
+        "text": "Link-3"
+      }
+    }
+  },
+  "menu-item#link-4-help-two": {
+    "props": {
+      "blockClass": "menu-item-link-4-help-two",
+      "id": "menu-item-link-4-help-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "link4",
+        "text": "Link 4"
+      }
+    }
+  },
+
+  "rich-text#contact-whatssap": {
+    "children": [],
+    "props": {
+      "blockClass":"contact-whatssap"
+    }
+  },
+  "image#envelope": {
+    "props": {
+      "blockClass": "envelope",
+      "src": "assets/images/footer/newsletter/envelope.svg",
+      "maxHeight": "24",
+      "maxWidth": "24"
+    }
+  }
+}
+
+  
+
+  

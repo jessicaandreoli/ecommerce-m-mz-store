@@ -1,0 +1,31 @@
+.paragraph {
+  &--about-us-title {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $second-color3-500;
+  }
+
+  &--about-us-text {
+    font-weight: 400;
+    font-size: .625rem;
+    line-height: .875rem;
+    color: $second-color3-500;
+  }
+}
+
+.wrapper {
+  &--about-us-title {
+    width: 8.9375rem;
+  }
+
+  &--about-us-text {
+    width: 50.375rem;
+  }
+}
+
+.container {
+  &--about-us-title {
+    align-items: center;
+  }
+}

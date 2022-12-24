@@ -96,7 +96,11 @@
   &--button-product-diversified :first-child {
     background: transparent !important;
     border: 1px solid rgba(252, 82, 82, 0.15) !important;
-    color: #F26F25;
+
+    & :first-child {
+      border: none !important;
+      color: #F26F25 !important;
+    }
   }
 
   &--category :first-child {
@@ -106,7 +110,11 @@
   &--product-block-news-second-line :first-child {
     background: transparent !important;
     border: 1px solid rgba(252, 82, 82, 0.15) !important;
-    color: #F26F25;
+    
+    & :first-child {
+      border: none !important;
+      color: #F26F25 !important;
+    }
   }
 }
 

@@ -1,0 +1,98 @@
+{
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institutional",
+      "menu-item#help-mobile",
+      "menu-item#Help-two-mobile"
+    ]
+  },
+
+  "menu-item#institutional": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institutional/d",
+        "noFollow": true,
+        "tagTitle": "institutional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institutional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institutional": {
+    "children": ["vtex.menu@2.x:menu#institutional-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#institutional-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#link-1-institutional",
+      "menu-item#link-2-institutional",
+      "menu-item#link-3-institutional",
+      "menu-item#link-4-institutional",
+      "menu-item#link-5-institutional",
+      "menu-item#link-6-institutional",
+      "menu-item#link-7-institutional"
+    ]
+  },
+
+  "menu-item#help-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "help",
+        "text": "Ajuda"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#help"]
+  },
+  "vtex.menu@2.x:submenu.accordion#help": {
+    "children": ["vtex.menu@2.x:menu#help-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#help-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#link-1-help",
+      "menu-item#link-2-help",
+      "menu-item#link-3-help",
+      "menu-item#link-4-help",
+      "menu-item#link-5-help"
+    ]
+  },
+
+  "menu-item#Help-two-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "help",
+        "text": "Ajuda"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#help-two"]
+  },
+  "vtex.menu@2.x:submenu.accordion#help-two": {
+    "children": ["vtex.menu@2.x:menu#help-two-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#help-two-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#link-1-help-two",
+      "menu-item#link-2-help-two",
+      "menu-item#link-3-help-two",
+      "menu-item#link-4-help-two"
+    ]
+  }
+}

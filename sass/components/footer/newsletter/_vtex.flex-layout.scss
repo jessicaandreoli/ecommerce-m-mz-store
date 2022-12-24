@@ -11,9 +11,24 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: .3125rem;
+    align-items: end;
   }
   &--newsletter-email {
-    align-items: center;
+    align-items: end;
+  }
+  &--checkbox-newsletter {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.4375rem;
+    color: $text-color-400;
+    width: 35%;
+    justify-content: center;
+  }
+}
+
+.flexCol {
+  &--newsletter {
+    height: auto;
   }
 }
 
