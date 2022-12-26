@@ -1,0 +1,27 @@
+.paragraph {
+  &--hour-attendance {
+    font-weight: 400;
+    font-size: .625rem;
+    line-height: .875rem;
+    color: $text-color-200;
+    margin-left: 1.375rem;
+  }
+  &--payment-methods {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $text-color-200;
+  }
+  &--security-seals {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $text-color-200;
+  }
+  &--footer {
+    font-weight: 400;
+    font-size: .625rem;
+    line-height: .875rem;
+    color: $text-color-50;
+  }
+}

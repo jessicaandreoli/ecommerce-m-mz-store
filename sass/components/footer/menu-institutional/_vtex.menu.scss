@@ -1,0 +1,76 @@
+.styledLinkContent {
+  &--title-menu  {
+    position: absolute;
+    top: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $text-color-200;
+  }
+  &--title-menu-social {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &--title-menu-attendance {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $text-color-200;
+  }
+  &--contact-whatssap {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $second-color3-500;
+  }
+  &--contact-email {
+    color: $second-color3-500;
+  }  
+  &--title-menu-social {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: $text-color-200
+  }
+}
+
+.menuContainerNav {
+  &--title-menu {
+    position: relative;
+  }
+  &--title-menu-attendance {
+    position: relative;
+  }
+  &--title-menu-social {
+    position: relative;
+  }
+}
+
+.menuContainer {
+  &--title-menu {
+    margin-top: 2rem !important;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.4375rem;
+  }
+}
+.menuItem {
+  &--menu-item-link--isClosed :first-child {
+    & :first-child {
+      color: $text-color-200;
+    }
+  } 
+}
+
+.styledLinkContainer {
+  &--contact-whatssap {
+    margin: 0;
+  }
+  &--contact-email {
+    margin: 0;
+  }
+}

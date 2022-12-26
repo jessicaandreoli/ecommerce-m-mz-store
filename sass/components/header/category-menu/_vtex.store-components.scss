@@ -10,3 +10,17 @@
     padding-top: .5rem;
   }
 }
+
+.autoCompleteOuterContainer {
+  &--store-header {
+    & :first-child {
+      &  :first-child {
+        & :first-child {
+          font-weight: 400;
+          font-size: .875rem;
+          line-height: 1.5625rem;
+        }
+      }
+    }
+  }
+}

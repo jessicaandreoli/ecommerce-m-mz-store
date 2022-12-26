@@ -1,9 +1,11 @@
 {
   "vtex.menu@2.x:menu#institutional": {
     "props": {
+      "blockClass": "title-menu",
       "orientation": "vertical",
       "items": [
         {
+          "type": "custom",
           "itemProps": {
           "text": "Institucional"
           }
@@ -21,8 +23,10 @@
       
     ]
   },
+  
   "menu-item#link-1-institutional": {
     "props": {
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-1-institutional",
       "type": "custom",
       "iconId": null,
@@ -38,7 +42,7 @@
   },
   "menu-item#link-2-institutional": {
     "props": {
-      "blockClass": "menu-item-link-2-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-2-institutional",
       "type": "custom",
       "iconId": null,
@@ -54,7 +58,7 @@
   },
   "menu-item#link-3-institutional": {
     "props": {
-      "blockClass": "menu-item-link-3-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-3-institutional",
       "type": "custom",
       "iconId": null,
@@ -70,7 +74,7 @@
   },
   "menu-item#link-4-institutional": {
     "props": {
-      "blockClass": "menu-item-link-4-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-4-institutional",
       "type": "custom",
       "iconId": null,
@@ -86,7 +90,7 @@
   },
   "menu-item#link-5-institutional": {
     "props": {
-      "blockClass": "menu-item-link-5-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-5-institutional",
       "type": "custom",
       "iconId": null,
@@ -102,7 +106,7 @@
   },
   "menu-item#link-6-institutional": {
     "props": {
-      "blockClass": "menu-item-link-6-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-6-institutional",
       "type": "custom",
       "iconId": null,
@@ -118,7 +122,7 @@
   },
   "menu-item#link-7-institutional": {
     "props": {
-      "blockClass": "menu-item-link-7-institutional",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-7-institutional",
       "type": "custom",
       "iconId": null,
@@ -135,6 +139,7 @@
 
   "vtex.menu@2.x:menu#help": {
     "props": {
+      "blockClass": "title-menu",
       "orientation": "vertical",
       "items": [
         {
@@ -155,7 +160,7 @@
 
   "menu-item#link-1-help": {
     "props": {
-      "blockClass": "menu-item-link-2-help",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-1-help",
       "type": "custom",
       "iconId": null,
@@ -171,7 +176,7 @@
   },
   "menu-item#link-2-help": {
     "props": {
-      "blockClass": "menu-item-link-2-help",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-2-help",
       "type": "custom",
       "iconId": null,
@@ -187,7 +192,7 @@
   },
   "menu-item#link-3-help": {
     "props": {
-      "blockClass": "menu-item-link-3-help",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-3-help",
       "type": "custom",
       "iconId": null,
@@ -203,7 +208,7 @@
   },
   "menu-item#link-4-help": {
     "props": {
-      "blockClass": "menu-item-link-4-help",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-4-help",
       "type": "custom",
       "iconId": null,
@@ -219,7 +224,7 @@
   },
   "menu-item#link-5-help": {
     "props": {
-      "blockClass": "menu-item-link-5-help",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-5-help",
       "type": "custom",
       "iconId": null,
@@ -236,6 +241,7 @@
 
   "vtex.menu@2.x:menu#help-two": {
     "props": {
+      "blockClass": "title-menu",
       "orientation": "vertical",
       "items": [
         {
@@ -255,7 +261,7 @@
 
   "menu-item#link-1-help-two": {
     "props": {
-      "blockClass": "menu-item-link-1-help-two",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-1-help-two",
       "type": "custom",
       "iconId": null,
@@ -271,7 +277,7 @@
   },
   "menu-item#link-2-help-two": {
     "props": {
-      "blockClass": "menu-item-link-2-help-two",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-2-help-two",
       "type": "custom",
       "iconId": null,
@@ -287,7 +293,7 @@
   },
   "menu-item#link-3-help-two": {
     "props": {
-      "blockClass": "menu-item-link-3-help-two",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-3-help-two",
       "type": "custom",
       "iconId": null,
@@ -303,7 +309,7 @@
   },
   "menu-item#link-4-help-two": {
     "props": {
-      "blockClass": "menu-item-link-4-help-two",
+      "blockClass": "menu-item-link",
       "id": "menu-item-link-4-help-two",
       "type": "custom",
       "iconId": null,
@@ -318,21 +324,238 @@
     }
   },
 
-  "rich-text#contact-whatssap": {
-    "children": [],
+  "flex-layout.col#atendance-social-networks": {
+    "children": [
+      "vtex.menu@2.x:menu#attendance",
+      "vtex.menu@2.x:menu#social-networks"
+    ],
     "props": {
-      "blockClass":"contact-whatssap"
+      "blockClass": "atendance-social-networks"
     }
   },
-  "image#envelope": {
+
+  "vtex.menu@2.x:menu#attendance": {
     "props": {
-      "blockClass": "envelope",
-      "src": "assets/images/footer/newsletter/envelope.svg",
+      "blockClass": "title-menu-attendance",
+      "orientation": "vertical",
+      "items": [
+        {
+          "itemProps": {
+          "text": "Atendimento"
+          }
+        }
+      ]
+    },
+    "children": [
+      "flex-layout.col#whatssap",
+      "flex-layout.row#contact-email"
+    ]
+  },
+
+  "flex-layout.col#whatssap": {
+    "children": [
+      "flex-layout.row#contact-whatssap",
+      "rich-text#hour-attendance"
+    ],
+    "props": {
+      "blockClass": "whatssap"
+    }
+  },
+
+  "flex-layout.row#contact-whatssap": {
+    "children": [
+      "image#whatssap",
+      "menu-item#contact-whatssap"
+    ],
+    "props": {
+      "blockClass": "contact-whatssap",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    }
+  },
+
+  "image#whatssap": {
+    "props": {
+      "blockClass": "whatssap",
+      "src": "assets/images/footer/institutional/icon-whatssap.svg",
       "maxHeight": "24",
       "maxWidth": "24"
     }
+  },
+
+  "menu-item#contact-whatssap": {
+    "props": {
+      "blockClass": "contact-whatssap",
+      "id": "contact-whatssap",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "number whatssap",
+        "text": "(99) 9.9999-9999"
+      }
+    }
+  },
+  "rich-text#hour-attendance": {
+    "props": {
+      "blockClass":"hour-attendance",
+      "text": "seg a sex das 9h as 10h"
+    }
+  },
+  "flex-layout.row#contact-email": {
+    "children": [
+      "image#envelope-mz",
+      "menu-item#contact-email"
+    ],
+    "props": {
+      "blockClass": "contact-email",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    }
+  },
+  "menu-item#contact-email": {
+    "props": {
+      "blockClass": "contact-email",
+      "id": "contact-email",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "contact-email",
+        "text": "contato@mz.com.br"
+      }
+    }
+  },
+  "image#envelope-mz": {
+    "props": {
+      "blockClass": "envelope",
+      "src": "assets/images/footer/institutional/envelope-footer.svg",
+      "maxHeight": "24",
+      "maxWidth": "24"
+    }
+  },
+
+  "vtex.menu@2.x:menu#social-networks": {
+    "props": {
+      "blockClass": "title-menu-social",
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+          "text": "Redes Sociais"
+          }
+        }
+      ]
+    },
+    "children": ["list-context.image-list#social-networks"]
+  },
+  "list-context.image-list#social-networks": {
+    "title": "Lista de imagens de redes sociais", 
+    "children": ["flex-layout.row#wrapped"],
+    "props": {
+      "blockClass": "social-networks",
+      "height": 16.67,
+      "images": [
+          {
+            "image": "assets/images/footer/social-networks/icon-1.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-1.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/social-networks/icon-2.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-2.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/social-networks/icon-3.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-3.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/social-networks/icon-4.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-4.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/social-networks/icon-5.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-5.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/social-networks/icon-6.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-6.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },{
+            "image": "assets/images/footer/social-networks/icon-7.svg",
+            "mobileImage": "assets/images/footer/social-networks/icon-7.svg",
+            "description": "Primeira rede social",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          }
+      ]
+    }
+  },
+
+  "flex-layout.row#wrapped": {
+    "children": ["list-context-renderer#wrapped"],
+    "props": {
+      "blockClass": "wrapped"
+    }
+  },
+  "list-context-renderer#wrapped": {
+    "props": {
+      "blockClass":"list-social-networks",
+      "listElement": "ul",
+      "itemElement": "li"
+    }
   }
 }
+
 
   
 

@@ -1,0 +1,81 @@
+.flexCol {
+  &--whatssap {
+    margin-top: 2rem !important;
+  }
+  &--payment-methods  {
+    gap: 1rem;
+  }
+  &--security-seals {
+    margin-left: 4.375rem;
+  }
+}
+
+.flexRow {
+  &--menu-row {
+    background: $text-color2-500;
+  }
+  &--payment-methods {
+    background: $bg-color-flag2;
+  }
+  &--credits {
+    background: $bg-color-flag2;
+  }
+}
+
+.flexRowContent {
+  &--contact-whatssap {
+    align-items: center;
+    gap: .25rem
+  }
+  &--contact-email {
+    align-items: center;
+    gap: .25rem;
+    margin-bottom: 1rem;
+  }
+  &--wrapped {
+    margin-top: 2rem !important;
+    & :first-child {
+      display: flex;
+      padding: 0;
+      gap: 1.2081rem;
+
+      & :first-child {
+        list-style: none;
+      }
+    }
+  }
+
+  &--developed-product {
+    align-items: center;
+    justify-content: end;
+    gap: 2.3125rem;
+  }
+  
+  &--security-seals {
+    justify-content: end;
+    & :first-child {
+      display: flex;
+      gap: .5rem;
+      & :first-child {
+        list-style: none;
+        padding: 0;
+        & :first-child {
+          & :first-child {
+            width: 2.75rem !important;
+            height: 2.75rem !important;
+          }
+        }
+      }
+    }
+  }
+  &--payment-methods {
+    padding: 1.25rem 0 1.625rem;
+  }
+}
+
+.flexColChild {
+  &--developed-by {
+    height: auto;
+  }
+}
+

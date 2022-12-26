@@ -5,3 +5,9 @@
     color: $text-color1-500;
   }
 }
+.link {
+  &--tipbar {
+    color: $text-color1-500;
+    text-decoration: underline;
+  }
+}

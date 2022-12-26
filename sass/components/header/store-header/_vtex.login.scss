@@ -18,3 +18,21 @@
   margin-top: .5rem;
   margin-right: .625rem;
 }
+
+.accessCodeOptionBtn {
+  & :first-child {
+    background: transparent !important;
+    & :first-child {
+      color: #000000;
+    }
+  }
+}
+
+.emailPasswordOptionBtn {
+  & :first-child {
+    background: transparent !important;
+    & :first-child {
+      color: #000000;
+    }
+  }
+}

@@ -3,5 +3,10 @@
     position: relative;
   }
 }
+.flexRow {
+  &--slider-layout-main-banner {
+    background: linear-gradient(90deg, #F9F8FE 0%, #F9F8FE 100%);
+  }
+}
 
 

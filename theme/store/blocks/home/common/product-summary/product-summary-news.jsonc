@@ -4,7 +4,8 @@
       "image#wishlist-product",
       "stack-layout#prodsum-news",
       "product-summary-name",
-      "flex-layout.col#summary-shelf-news"
+      "flex-layout.col#summary-shelf-news",
+      "availability-notify"
     ]
   },
 

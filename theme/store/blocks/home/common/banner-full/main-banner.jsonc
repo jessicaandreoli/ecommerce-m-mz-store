@@ -2,8 +2,8 @@
   "list-context.image-list#main-banner": {
     "title": "Lista de Banners Principais", 
     "children": [
-      "slider-layout#main-banner",
-      "flex-layout.row#content-banner"
+      "flex-layout.row#slider-layout-main-banner"
+      //"flex-layout.row#content-banner"
   ],
     "props": {
       "blockClass": "main-banner",
@@ -23,7 +23,7 @@
         },
         {
           "image": "assets/images/home/banner/main-banner.png",
-          "mobileImage": "assets/images/home/banner/main-banner.png",
+          "mobileImage": "assets/images/home/banner/main-banner-mobile.png",
           "description": "Banner Principal",
           "width": "100%",
           "link": {
@@ -35,7 +35,7 @@
         },
         {
           "image": "assets/images/home/banner/main-banner.png",
-          "mobileImage": "assets/images/home/banner/main-banner.png",
+          "mobileImage": "assets/images/home/banner/main-banner-mobile.png",
           "description": "Banner Principal",
           "width": "100%",
           "link": {
@@ -46,6 +46,12 @@
           }
         }
       ]
+    }
+  },
+  "flex-layout.row#slider-layout-main-banner": {
+    "children": ["slider-layout#main-banner"],
+    "props": {
+      "blockClass": "slider-layout-main-banner"
     }
   },
   "slider-layout#main-banner": {

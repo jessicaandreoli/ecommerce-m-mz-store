@@ -13,49 +13,233 @@
       "vtex.menu@2.x:menu#institutional",
       "vtex.menu@2.x:menu#help",
       "vtex.menu@2.x:menu#help-two",
-      
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#atendance-social-networks"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
-    }
-  },
-
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
+      "paddingBottom": 3,
+      "colSizing": "auto"
     }
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "flex-layout.col#payment-methods",
+      "flex-layout.col#security-seals",
+      "flex-layout.row#developed-product"
+      
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "colSizing": "equal",
+      "colJustify": "between"
+    }
+  },
+
+  "flex-layout.col#payment-methods": {
+    "children": [
+      "rich-text#payment-methods",
+      "accepted-payment-methods#first-seven",
+      "accepted-payment-methods#second-seven"
+    ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
-  "accepted-payment-methods": {
+  "rich-text#payment-methods": {
+    "props" : {
+      "blockClass":"payment-methods",
+      "text": "Formas de Pagamentos" 
+    }
+  },
+  "accepted-payment-methods#first-seven": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": [
+        "MasterCard", 
+        "Visa", 
+        "Diners Club",
+        "American Express",
+        "MasterCard", 
+        "Visa", 
+        "Diners Club"
+      ]
+    }
+  },
+  "accepted-payment-methods#second-seven": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard", 
+        "Visa", 
+        "Diners Club",
+        "American Express",
+        "MasterCard", 
+        "Visa", 
+        "Diners Club"
+      ]
+    }
+  },
+
+  "flex-layout.col#security-seals": {
+    "children": [
+      "rich-text#security-seals",
+      "list-context.image-list#security seals"
+    ],
+    "props": {
+      "blockClass": "security-seals"
+    }
+
+  },
+
+  "rich-text#security-seals": {
+    "props" : {
+      "blockClass":"security-seals",
+      "text": "Selos de Segurança" 
+    }
+  },
+  "list-context.image-list#security seals": {
+    "title": "Lista de imagens de selos de segurança", 
+    "children": ["flex-layout.row#security-seals"],
+    "props": {
+      "blockClass": "security seals",
+      "height": 44,
+      "images": [
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Primeiro selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Segundo selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Terceiro selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Quarto selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Quinto selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Sexto selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          },
+          {
+            "image": "assets/images/footer/security-seals/security-seals.png",
+            "mobileImage": "assets/images/footer/security-seals/security-seals.png",
+            "description": "Sétimo selo de segurança",
+            "link": {
+              "url": "#",
+              "noFollow": false,
+              "openNewTab": false,
+              "title": "Saiba mais"
+            }
+          }
+      ]
+    }
+  },
+  "flex-layout.row#developed-product": {
+    "children": [
+      "powered-by",
+      "flex-layout.col#product-maeztra"
+    ],
+    "props": {
+      "blockClass": "developed-product",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#product-maeztra": {
+    "children": [
+      "image#developed-by",
+      "image#logo-maeztra"
+    ],
+    "props": {
+      "blockClass": "developed-by"
+    }
+  },
+
+  "image#developed-by": {
+    "props": {
+      "blockClass": "product-and-devloped",
+      "src": "assets/images/footer/developed-by.png",
+      "link": {
+        "openNewTab": false,
+        "title": "Favorites",
+        "url": "/account/#/wishlist"
+      }
+    }
+  },
+
+  "image#logo-maeztra": {
+    "props": {
+      "blockClass": "product-and-devloped",
+      "src": "assets/images/footer/maeztra-logo.png",
+      "link": {
+        "openNewTab": false,
+        "title": "Favorites",
+        "url": "/account/#/wishlist"
+      }
+    }
+  },
+
+  "flex-layout.row#security-seals": {
+    "children": ["list-context-renderer#security-seals"],
+    "props": {
+      "blockClass": "security-seals"
+    }
+  },
+  "list-context-renderer#security-seals": {
+    "props": {
+      "blockClass":"list-security-seals",
+      "listElement": "ul",
+      "itemElement": "li"
     }
   },
 
@@ -67,7 +251,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "LOREMIPSUM LTDA - ME - CNPJ: 20.315.9000/0001-68 © Todos os direitos reservados. 2018 -LOREMIPSUM LTDA - ME - CNPJ: 20.315.9000/0001-68 © Todos os direitos reservados. 2018",
       "blockClass": "footer"
     }
   }

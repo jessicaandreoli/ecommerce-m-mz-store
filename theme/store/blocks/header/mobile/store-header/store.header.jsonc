@@ -1,8 +1,12 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  "flex-layout.row#store-header-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu-mobile",
+      "logo#mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "store-header-mobile"
+    }
   }
 }

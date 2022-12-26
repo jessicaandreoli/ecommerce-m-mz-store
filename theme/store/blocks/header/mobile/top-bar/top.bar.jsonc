@@ -1,11 +1,19 @@
 {
+  "flex-layout.row#topbar-mobile": {
+    "children": ["flex-layout.col#topbar"],
+    "props": {
+      "blockClass": "topbar-mobile",
+      "horizontalAlign": "center"
+    }
+  },
   "flex-layout.col#topbar": {
     "children": ["rich-text#topbar"],
     "props": {
-      "blockClass": "topbar",
+      "blockClass": "topbar-mobile",
       "fullWidth": true,
       "colSizing": "equal",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
     }
   },
 
